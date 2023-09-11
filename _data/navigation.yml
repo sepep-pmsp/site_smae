@@ -1,12 +1,12 @@
-- title: Start
+- title: Início
   url: "/"
   side: left
 
-- title: Getting Started
+- title: Placeholder
   url: "/getting-started/"
   side: left
 
-- title: "Templates"
+- title: "Placeholder 2"
   url: "/design/"
   side: left
   dropdown:
@@ -31,7 +31,7 @@
   - title: "Portfolio"
     url: "/design/portfolio/"
 
-- title: "Header Styles"
+- title: "Placeholder 3"
   url: "/headers/"
   side: left
   dropdown:
@@ -50,7 +50,7 @@
   - title: "No Header but Image"
     url: "/design/no-header-but-image/"
 
-- title: Documentation
+- title: Documentação
   url: "/documentation/"
   side: left
   dropdown:
@@ -66,10 +66,10 @@
   - title: "Blog Archive"
     url: "/blog/archive/"
 
-- title: "Search"
+- title: "Busca"
   url: "/search/"
   side: right
 
-- title: "Contact"
+- title: "Contato"
   url: "/contact/"
   side: right

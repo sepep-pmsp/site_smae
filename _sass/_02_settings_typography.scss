@@ -16,21 +16,25 @@ Modular Scale › http://www.modularscale.com//?16,36&px&1.25&web&table
 /* Fonts
 ------------------------------------------------------------------- */
 
+@font-face {
+    font-family: 'Roboto';
+    src: url(../assets/fonts/Roboto/Roboto-Medium.ttf) format('truetype');
+}
+
 $base-font-size: 16px;
 $rem-base: $base-font-size;
 // $base-line-height is 24px while $base-font-size is 16px
 $base-line-height: 1.5 !default;
 
 
-$font-family-sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif: 'Roboto', sans-serif;
 $font-family-serif: "Volkhov", Georgia, Times, serif;
 $font-family-monospace: "Lucida Console", Monaco, monospace;
 
 $body-font-family: $font-family-sans-serif;
 $body-font-weight: normal;
 $body-font-style: normal;
-
-$header-font-family: $font-family-serif;
+$header-font-family: $font-family-sans-serif;
 
 
 
