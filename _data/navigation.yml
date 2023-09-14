@@ -2,36 +2,24 @@
   url: "/"
   side: left
 
-- title: Placeholder
+- title: Sobre
   url: "/getting-started/"
   side: left
 
-- title: "Placeholder 2"
+- title: "Tutoriais"
   url: "/design/"
   side: left
   dropdown:
-  - title: "Grid & Colors"
-    url: "/design/grid/"
-  - title: "Typography"
-    url: "/design/typography/typography/"
-  - title: "Page/Post"
-    url: "/design/page/"
-  - title: "Post-Left-Sidebar"
-    url: "/design/post-left-sidebar/"
-  - title: "Post-Right-Sidebar"
-    url: "/design/post-right-sidebar/"
-  - title: "Page Full-Width"
-    url: "/design/page-fullwidth/"
-  - title: "Blog-Page"
-    url: "/blog/"
-  - title: "Video"
-    url: "/design/video/"
-  - title: "Gallery"
-    url: "/design/gallery/"
-  - title: "Portfolio"
-    url: "/design/portfolio/"
+  - title: "Usuários"
+    url: "/design/primeiro-tutorial/"
+  - title: "Administradores"
+    url: "/design/segundo-tutorial"
+  - title: "Coordenadores"
+    url: "/design/terceiro-tutorial/"
+  - title: "Etc"
+    url: "/design/quarto-tutorial/"
 
-- title: "Placeholder 3"
+- title: "Video-aulas"
   url: "/headers/"
   side: left
   dropdown:
@@ -50,7 +38,7 @@
   - title: "No Header but Image"
     url: "/design/no-header-but-image/"
 
-- title: Documentação
+- title: "Dúvidas e FAQ"
   url: "/documentation/"
   side: left
   dropdown:
@@ -59,7 +47,16 @@
   - title: "Roadmap"
     url: "/roadmap/"
 
-- title: Blog
+- title: "Documentação"
+  url: "/documentation/"
+  side: left
+  dropdown:
+  - title: "Changelog"
+    url: "/changelog/"
+  - title: "Roadmap"
+    url: "/roadmap/"
+
+- title: Novidades
   url: "/blog/"
   side: left
   dropdown:
