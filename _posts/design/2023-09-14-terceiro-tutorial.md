@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 subheadline: Tutorial
-title:  "Primeiro tutorial do SMAE"
+title:  "Terceiro tutorial do SMAE"
 teaser: "Manual técnico do Sistema de Monitoramento e acompanhamento Estratégico."
 breadcrumb: true
 categories:
