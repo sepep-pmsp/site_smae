@@ -249,11 +249,11 @@ $align-class-breakpoints:
     }
 
     /* Default header styles */
-    h1, h2, h3, h4, h5, h6 {
+    h1, h2, h3 {
       font-family: $header-font-family;
       font-weight: $header-font-weight;
       font-style: $header-font-style;
-      color: $header-font-color;
+      color: #f7c234;
       text-rendering: $header-text-rendering;
       margin-top: $header-top-margin;
       margin-bottom: $header-bottom-margin;

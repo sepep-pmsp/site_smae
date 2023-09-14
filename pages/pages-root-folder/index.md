@@ -6,26 +6,28 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: "login.jpg"
+  image_fullwidth: "logo_smae.png"
 
 
 widget1:
   title: "Aprenda mais sobre o SMAE"
   url: '/'
   image: login.jpg
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+  text: O Sistema de Monitoramento e Acompanhamento Estratégico é um software livre e de código aberto que foi desenvolvido com o objetivo de promover melhores práticas na gestão da informação e garantir a consistência na coleta de dados relativos ao Programa de Metas e aos Projetos Prioritários da administração pública municipal. Atualmente, seu escopo diz respeito aos ciclos internos de monitoramento do Programa de Metas e de acompanhamento dos Projetos Prioritários. A implementação do SMAE permite substituir e automatizar rotinas anteriormente realizadas de forma manual por meio de softwares proprietários de planilhas e envio de e-mails, que eram morosas e altamente propensas a erros humanos.'
+
 widget2:
   title: "Tutoriais sobre o SMAE"
   url: '/'
   image: login.jpg
   text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
+
 widget3:
   title: "Acesse o ambiente do SMAE"
   url: '/'
   image: login.jpg
   text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. The code is well-documented and explains you how it works.'
 
-  
+
 #
 # Use the call for action to show a button on the frontpage
 #
