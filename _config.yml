@@ -25,7 +25,7 @@ author: PMSP
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'http://localhost'
+url: 'https://sepep-pmsp.github.io/'
 baseurl: '/site_smae'
 
 # This is for the editing function in _/includes/improve_content
