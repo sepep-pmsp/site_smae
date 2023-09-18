@@ -7,26 +7,26 @@
   side: left
 
 - title: "Tutoriais"
-  url: "/design/"
+  url: "/tutoriais/"
   side: left
   dropdown:
   - title: "Usuários"
-    url: "/design/primeiro-tutorial/"
+    url: "/tutorial/primeiro-tutorial/"
   - title: "Administradores"
-    url: "/design/segundo-tutorial"
+    url: "/tutorial/segundo-tutorial"
   - title: "Coordenadores"
-    url: "/design/terceiro-tutorial/"
+    url: "/tutorial/terceiro-tutorial/"
   - title: "Etc"
-    url: "/design/quarto-tutorial/"
+    url: "/tutorial/quarto-tutorial/"
 
 - title: "Video-aulas"
-  url: "/headers/"
+  url: "/video-aulas/"
   side: left
   dropdown:
   - title: "Primeira video-aula"
-    url: "/design/primeiro-video-tutorial/"
+    url: "/video-aula/primeira-video-aula/"
   - title: "Segunda video-aula"
-    url: "/design/segundo-video-tutorial/"
+    url: "/video-aula/segunda-video-aula/"
 
 - title: "Dúvidas e FAQ"
   url: "/documentation/"
