@@ -10,7 +10,7 @@ header:
 
 
 widget1:
-  title: "Aprenda mais sobre o SMAE"
+  title: "Sobre o SMAE"
   url: '/'
   image: login.jpg
   text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
@@ -18,12 +18,12 @@ widget2:
   title: "Tutoriais sobre o SMAE"
   url: '/'
   image: login.jpg
-  text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
+  text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam temporibus nisi illo quos. Repudiandae fuga itaque eveniet eum culpa inventore. Iusto perspiciatis natus totam labore eaque adipisci repudiandae neque cum.'
 widget3:
   title: "Acesse o ambiente do SMAE"
   url: '/'
   image: login.jpg
-  text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. The code is well-documented and explains you how it works.'
+  text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam temporibus nisi illo quos. Repudiandae fuga itaque eveniet eum culpa inventore. Iusto perspiciatis natus totam labore eaque adipisci repudiandae neque cum.'
 
   
 #

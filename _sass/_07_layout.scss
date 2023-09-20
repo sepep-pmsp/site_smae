@@ -41,6 +41,34 @@ body.video cite a:visited, { color: #fff; }
 body.video cite { color: #fff; }
 
 
+/* Sistema SMAE
+---------------------------------------------------------------------*/
+.homepage_smae { 
+    text-transform: uppercase; 
+    text-align: center; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.homepage_iframe_paragrafo{
+    position: relative;
+}
+
+.paragrafo_homepage_smae{
+    font-size: 17px;
+    text-align: start;
+    margin-left: 20px;
+    margin-right: 20px;
+    //width: 500px;
+    //height: 500px;
+}
+.video_smae_pt{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
 
 /* Navigation
 ------------------------------------------------------------------- */
@@ -284,7 +312,7 @@ body.video cite { color: #fff; }
     #footer h4,
     #footer h5 {
         letter-spacing: 1px;
-        color: #fff;
+        color: #f7c234;
         text-transform: uppercase;
     }
 
