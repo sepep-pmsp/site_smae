@@ -279,4 +279,5 @@ collections:
 
   presentations:
     output: true
-    permalink: /tutorial/:name
+    permalink: /tutoriais/:name
+    
