@@ -275,7 +275,7 @@ collections:
 
   videos:
     output: true
-    permalink: /video-aula/:name
+    permalink: /video-aulas/:name
 
   presentations:
     output: true
