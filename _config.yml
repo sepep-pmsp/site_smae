@@ -270,3 +270,14 @@ asciidoctor:
     source-highlighter: coderay
     coderay-css: style
     icons: font
+
+collections:
+
+  videos:
+    output: true
+    permalink: /video-aulas/:name
+
+  presentations:
+    output: true
+    permalink: /tutoriais/:name
+    
