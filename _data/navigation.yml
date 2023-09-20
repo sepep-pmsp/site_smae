@@ -24,7 +24,7 @@
   side: left
   dropdown:
   - title: "Primeira video-aula"
-    url: "/video-aula/primeira-video-aula/"
+    url: "/video-aulas/primeira-video-aula/"
   - title: "Segunda video-aula"
     url: "/video-aula/segunda-video-aula/"
 
