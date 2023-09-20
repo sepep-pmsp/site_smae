@@ -11,7 +11,7 @@
   side: left
   dropdown:
   - title: "Usuários"
-    url: "/tutorial/primeiro-tutorial/"
+    url: "/tutoriais/primeiro-tutorial/"
   - title: "Administradores"
     url: "/tutoriais/segundo-tutorial"
   - title: "Coordenadores"
