@@ -1,6 +1,7 @@
 ---
 layout              : page
 show_meta           : false
+
 #title               : "Sobre SMAE "
 header:
    image_fullwidth  : "header_homepage_13.png"
