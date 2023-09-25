@@ -43,28 +43,14 @@ body.video cite { color: #fff; }
 
 /* Sistema SMAE
 ---------------------------------------------------------------------*/
-.homepage_smae { 
-    text-transform: uppercase; 
-    text-align: center; 
-    margin-top: 25px;
-    margin-bottom: 25px;
+.iconfont{
+    color: #f7c234;
 }
-.homepage_iframe_paragrafo{
-    position: relative;
+.iconfont:hover{
+    background-color: #f7c234;
+    color: #152741;
 }
 
-.paragrafo_homepage_smae{
-    font-size: 17px;
-    text-align: start;
-    margin-left: 20px;
-    margin-right: 20px;
-    //width: 500px;
-    //height: 500px;
-}
-.video_smae_pt{
-    text-align: center;
-    margin-top: 20px;
-}
 
 
 
@@ -285,7 +271,8 @@ body.video cite { color: #fff; }
     border-radius: 3px;
 }
 #up-to-top a:hover {
-    background: $grey-2;
+    color: #f7c234;
+    background: #152741;
 }
 
 
