@@ -11,12 +11,12 @@ header:
 
 widget1:
   title: "Sobre o SMAE"
-  url: '/'
+  url: '/sobre-smae/'
   image: login.jpg
   text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
 widget2:
   title: "Tutoriais sobre o SMAE"
-  url: '/'
+  url: '/tutoriais/'
   image: login.jpg
   text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam temporibus nisi illo quos. Repudiandae fuga itaque eveniet eum culpa inventore. Iusto perspiciatis natus totam labore eaque adipisci repudiandae neque cum.'
 widget3:
