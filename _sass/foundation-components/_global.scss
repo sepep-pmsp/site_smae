@@ -33,6 +33,7 @@ $base-line-height: 1.5 !default;
 @mixin radius($radius: $global-radius) {
   @if $radius {
     border-radius: $radius;
+    background-color: #152741;
   }
 }
 
