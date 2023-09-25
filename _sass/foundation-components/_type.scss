@@ -215,7 +215,7 @@ $align-class-breakpoints:
 
     /* Default Link Styles */
     a {
-      color: $anchor-font-color;
+      color: #0498fa;
       text-decoration: $anchor-text-decoration;
       line-height: inherit;
 
@@ -304,8 +304,8 @@ $align-class-breakpoints:
     code {
       font-family: $code-font-family;
       font-weight: $code-font-weight;
-      color: $code-color;
-      background-color: $code-background-color;
+      color: #f7c234;
+      background-color: #152741;
       border-width: $code-border-size;
       border-style: $code-border-style;
       border-color: $code-border-color;
@@ -367,6 +367,7 @@ $align-class-breakpoints:
         ol {
           margin-#{$default-float}: $list-nested-margin;
           margin-bottom: 0;
+        
         }
       }
     }
