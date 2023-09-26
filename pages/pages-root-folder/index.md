@@ -6,18 +6,18 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: "login.jpg"
+  image_fullwidth: "bg-header.jpg"
 
 
 widget1:
   title: "Sobre o SMAE"
   url: '/sobre-smae/'
-  image: login.jpg
+  image: header_unsplash_2.jpg
   text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
 widget2:
   title: "Tutoriais sobre o SMAE"
   url: '/tutoriais/'
-  image: login.jpg
+  image: Logo SEPEP - Laranja.svg
   text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam temporibus nisi illo quos. Repudiandae fuga itaque eveniet eum culpa inventore. Iusto perspiciatis natus totam labore eaque adipisci repudiandae neque cum.'
 widget3:
   title: "Acesse o ambiente do SMAE"
