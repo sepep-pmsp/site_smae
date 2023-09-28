@@ -42,7 +42,7 @@ urlimg: './assets/img/'
 
 
 # Logo size is 600x80 pixels
-logo: "logo.svg"
+logo: "logo.png"
 
 # Plugins
 plugins:
