@@ -215,7 +215,7 @@ $align-class-breakpoints:
 
     /* Default Link Styles */
     a {
-      color: #0498fa;
+      color: $monochromatic-7 ;
       text-decoration: $anchor-text-decoration;
       line-height: inherit;
 

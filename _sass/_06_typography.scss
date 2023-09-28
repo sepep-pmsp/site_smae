@@ -34,7 +34,7 @@ a:visited {
 }
 
 a:hover {
-    color: darken( $ci-1, 10% );
+    color: darken( $hue-orange-2, 10% );
 }
 
 a:focus {
@@ -42,7 +42,7 @@ a:focus {
 }
 
 a:active {
-    color: darken( $ci-1, 20% );
+    color: darken( $hue-orange-3, 20% );
 }
 
 
@@ -58,6 +58,7 @@ p {
     -ms-word-break: normal;
     /* Non standard for webkit */
     word-break: normal;
+    color: $dark-blue-1;
 }
 p a,
 article a {
@@ -67,6 +68,7 @@ article a {
 p a:hover,
 article a:hover {
     border-bottom: 2px solid;
+    
 }
 p a.button,
 .button,
@@ -92,6 +94,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $header-font-family;
     font-weight: normal;
     padding: 0;
+    color: $hue-orange-1;
 }
 h1 {
     font-size: $font-size-h1;
@@ -201,6 +204,7 @@ ul, ol {
 }
 li {
     margin-left: 0;
+    color: $ci-4;
 }
 
 .no-bullet {
@@ -240,10 +244,10 @@ blockquote {
     position: relative;
     border: none;
     margin: 0 30px 30px 30px;
-    color:  $grey-11;
+    color:  $dark-orange-3 ;
 }
 
-    blockquote p {font-style: italic; color: $grey-10; }
+    blockquote p {font-style: italic; color: $dark-orange-3 ; }
 
     blockquote:before {
         display:block;content:"\00BB";
@@ -252,7 +256,7 @@ blockquote {
         position:absolute;
         left:-25px;
         top: auto;
-        color: $grey-11;
+        color: $ci-4;
     }
     blockquote:after {
         display:block;
@@ -262,7 +266,7 @@ blockquote {
         position:absolute;
         right:-10px;
         bottom: 20px;
-        color: $grey-11;
+        color: $ci-5;
     }
     blockquote cite:before {
         content:"\2014 \0020"
@@ -442,7 +446,7 @@ text-rendering: optimizeLegibility;
 text-transform: none;
 -moz-osx-font-smoothing: grayscale;
 -webkit-font-smoothing: antialiased;
-font-smoothing: antialiased;
+-font-smoothing: antialiased;
 }
 
 .icon-archive:before { content: "\f100"; }
