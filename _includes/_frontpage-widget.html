@@ -16,7 +16,7 @@
 	{% if include.widget.video %}
 		{{ include.widget.video }}
 	{% elsif widget_url == empty %}
-		{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+		{% if widget_image != empty %}<img src="{{ site.urlimg | absolute_url }}{{ widget_image }}" alt="" />{% endif %}
 	{% else %}
 		<a href="{{ widget_url }}">
 			{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
