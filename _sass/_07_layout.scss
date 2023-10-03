@@ -44,17 +44,12 @@ body.video cite { color: #fff; }
 /* Sistema SMAE
 ---------------------------------------------------------------------*/
 .iconfont{
-    color: #f7c234;
+    color: $hue-orange-1;
 }
 .iconfont:hover{
-    background-color: #f7c234;
-    color: #152741;
+    background-color: $hue-orange-1;
+    color: $dark-blue-1;
 }
-
-
-
-
-
 
 /* Navigation
 ------------------------------------------------------------------- */
@@ -271,11 +266,9 @@ body.video cite { color: #fff; }
     border-radius: 3px;
 }
 #up-to-top a:hover {
-    color: #f7c234;
-    background: #152741;
+    color: $hue-orange-1;
+    background: $dark-blue-1;
 }
-
-
 
 /* Footer
 ------------------------------------------------------------------- */
@@ -284,6 +277,7 @@ body.video cite { color: #fff; }
 #footer-content li {
     font-size: rem-calc(13);
     font-weight: 300;
+    color: $hue-orange-1;
 }
 
 #footer {
@@ -299,7 +293,7 @@ body.video cite { color: #fff; }
     #footer h4,
     #footer h5 {
         letter-spacing: 1px;
-        color: #f7c234;
+        color: $hue-orange-1;
         text-transform: uppercase;
     }
 
