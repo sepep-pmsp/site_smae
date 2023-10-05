@@ -22,7 +22,7 @@ widget2:
 widget3:
   title: "Acesse o ambiente do SMAE"
   url: 'https://smae.prefeitura.sp.fgv.br/login'
-  image: logo_smae.svg
+  image: fundo-azul.jpg
   text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam temporibus nisi illo quos. Repudiandae fuga itaque eveniet eum culpa inventore. Iusto perspiciatis natus totam labore eaque adipisci repudiandae neque cum.'
 
   
