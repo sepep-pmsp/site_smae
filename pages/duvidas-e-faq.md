@@ -1,11 +1,11 @@
 ---
 layout: page-fullwidth
-title: "Theme Documentation"
-subheadline: "How to use Feeling Responsive"
-teaser: "The documentation is a work in progress..."
-permalink: "/documentation/"
+title: "Dúvidas e FAQ"
+subheadline: "Dúvidas Comuns e Respostas Rápidas"
+#teaser: "The documentation is a work in progress..."
+permalink: "/duvidas-e-faq/"
 header:
-   image_fullwidth: "bg-home.jpg"
+   image_fullwidth: "header_roadmap_2.jpg"
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
@@ -20,41 +20,35 @@ header:
 
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
-{% include _improve_content.html %}
+{% include _improve.html %}
 
-## Edit Navigation   {#edit-navigation}
+## Introdução e Boas-vindas   {#Introdução}
 
-To customize the navigation of *Feeling Responsive*, edit the [YAML](https://jekyllrb.com/docs/datafiles/)-file `_data/navigation.yml`.
+Uma breve introdução sobre o propósito da página e a importância de ajudar os usuários a encontrar `informações rapidamente`
 
-## Different Page/Posts Formats   {#formats}
+## Índice de Perguntas   {#Perguntas}
 
-*Feeling Responsive* supports you with different templates for your content. These are the actual page/post formats:
+Uma lista de perguntas frequentes (FAQs) organizadas por categoria ou tema para facilitar a navegação.
 
 ### Page/Post
-The [page/post format]({{ site.url }}{{ site.baseurl }}/design/page/) has no sidebar by default, its content is centered and beneath the content the visitor gets some metadata like categories, tags, date and author if provided via data in front matter of the post.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 
 use in front matter via: `layout: page`
 
-### Page/Post with a left or right sidebar
-If you want to show the sidebar, just enter `sidebar: left` or `sidebar: right` in front matter, and *whoops, there it is*! To customize the content of the sidebar, open `_includes/sidebar`.
+### What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. `Lorem Ipsum has been the industry's standard dummy` text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 
-### Page/Post with or without metadata
-You can show metadata, such as categories, tags and a date at the end of the page, just enter `show_meta: true`. By default, it's turned on. You can change it via `_config.yml`. To turn off metadata, enter `show_meta: false`.
+### Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", `comes from a line in section 1.10.32`.
 
 
 
-### Page Full Width
-If you want full control of styling a page, then use the [page fullwidth template]({{ site.url }}{{ site.baseurl }}/design/page-fullwidth/). To set up a grid, just use the [foundation grid system](http://foundation.zurb.com/docs/components/grid.html).
+### Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for `'lorem ipsum'` will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 
-use in front matter via: `layout: page-fullwidth`
-
-
-### Frontpage
-This template is special. It allows you to define three *widgets* which are displayed with a headline, image, description and a link to the content. It's used for the [homepage]({{ site.url }}{{ site.baseurl }}) of this website.
-
-use in front matter via: `layout: frontpage`
-
+### Where can I get some?
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
 
 ### Video
 If you're a video producer or cineast, you'll like the [video template]({{ site.url }}{{ site.baseurl }}/design/video/). It darkens the layout to black and lets the video stand out full-width.
@@ -66,12 +60,11 @@ use in front matter via: `layout: video`
 
 ## Style your content with   {#styling}
 
-Feeling Responsive offers different options to style your article content. There are elements like subheadlines, feature images, header images, homepage images, meta data like categories and tags and many more.
-
+F Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 ### subheadlines
 
-If you need a subheadline for an article, just define a subheadline in front matter like this:
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 `subheadline:  "Subheadline"`
 

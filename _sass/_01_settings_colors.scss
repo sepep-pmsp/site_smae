@@ -48,6 +48,91 @@ $info-color         : $ci-1;
 
 
 
+
+
+/* Scale Color Variables Orange
+------------------------------------------------------------------- */
+
+//Complementary colors
+
+$complementary-orange        : #f7c234;
+$complementary-blue          : #3469f7;
+
+//Triadic colors
+
+$cromarico-1                 : #34f7c3;
+$cromarico-2                 : #f7c234;
+$cromarico-3                 : #c334f7;
+
+//Monochromatic colors
+
+$monocromatico-1              : #f7c234;
+$monocromatico-2              : #f7e9c2;
+$monocromatico-3              : #f7e8bf;
+$monocromatico-4              : #f7e8bd;
+$monocromatico-5              : #f7e7ba;
+$monocromatico-6              : #f7e6b8;
+
+//Hue (adding white)
+
+$hue-orange-1                 :#f7c234;
+$hue-orange-2                 :#f8ce5c;
+$hue-orange-3                 :#fada85;
+$hue-orange-4                 :#fbe6ad;
+$hue-orange-5                 :#fdf2d6;
+$hue-orange-6                 :#ffffff;
+
+//Shadow (adding black)
+
+$dark-orange-1                : #f7c234;
+$dark-orange-2                : #c59b29;
+$dark-orange-3                : #94741f;
+$dark-orange-4                : #624d14;
+$dark-orange-5                : #31260a;
+$dark-orange-6                : #000000;
+
+/* Scale Color Variables dark-blue
+------------------------------------------------------------------- */
+
+//Complementary colors
+
+$complementary-blue        : #152741;
+$complementary-darkorange  : #412f15;
+
+//Triadic colors
+
+$triadic-1                 : #411528;
+$triadic-2                 : #152741;
+$triadic-3                 : #284115;
+
+//Monochromatic colors
+
+$monochromatic-1             : #152741;
+$monochromatic-2             : #333941;
+$monohromatic-3              : #333941;
+$monohromatic-4              : #323841;
+$monohromatic-5              : #313841;
+$monohromatic-6              : #313841;
+$monochromatic-7             : #2d99f9;
+
+//Hue (adding white)
+
+$hue-blue-1                 :#152741;
+$hue-blue-2                 :#435267;
+$hue-blue-3                 :#727d8d;
+$hue-blue-4                 :#a1a8b3;
+$hue-blue-5                 :#d0d3d9;
+$hue-blue-6                 :#ffffff;
+
+//Shadow (adding black)
+
+$dark-blue-1                : #152741;
+$dark-blue-2                : #101f34;
+$dark-blue-3                : #0c1727;
+$dark-blue-4                : #080f19;
+$dark-blue-5                : #04070c;
+$dark-blue-6                : #000000;
+
 /* Grey Scale
 ------------------------------------------------------------------- */
 
@@ -77,24 +162,24 @@ $topbar-bg-color    : $head-color;
 $topbar-bg          : $topbar-bg-color;
 
 
-$topbar-dropdown-toggle-color: #f7c234;
+$topbar-dropdown-toggle-color: $hue-orange-1;
 
-$topbar-link-color  : #f7c234;
-$topbar-link-color-hover: #f7c234;
-$topbar-link-color-active: #f7c234;
-$topbar-link-color-active-hover: #f7c234;
+$topbar-link-color  : $hue-orange-1;
+$topbar-link-color-hover: $hue-orange-1;
+$topbar-link-color-active: $hue-orange-1;
+$topbar-link-color-active-hover: $hue-orange-1;
 
-$topbar-dropdown-label-color: #f7c234;
-$topbar-dropdown-link-bg-hover: #152741;
+$topbar-dropdown-label-color: $hue-orange-1;
+$topbar-dropdown-link-bg-hover:  $dark-blue-1 ;
 
 $topbar-link-bg-active: #1a304e; // Active Navigation Link
 $topbar-link-bg-hover: #244877;
 $topbar-link-bg-active-hover: #23426d ;
 
 
-$topbar-dropdown-bg: #f7c234; // Background Mobile Navigation
-$topbar-dropdown-link-color: #152741;
-$topbar-dropdown-link-bg: #f7c234 ;
+$topbar-dropdown-bg: $hue-orange-1; // Background Mobile Navigation
+$topbar-dropdown-link-color:  $dark-blue-1 ;
+$topbar-dropdown-link-bg: $hue-orange-1 ;
 
 $topbar-menu-link-color-toggled: $ci-6;
 $topbar-menu-icon-color-toggled: $ci-6 ;
@@ -108,14 +193,14 @@ $topbar-menu-icon-color-toggled: $ci-6;
 /* Footer
 ------------------------------------------------------------------- */
 
-$footer-bg          : #152741;
-$footer-color       : #f7c234;
-$footer-link-color  : #f7c234;
+$footer-bg          : $dark-blue-1;
+$footer-color       : $hue-orange-1;
+$footer-link-color  : $hue-orange-4;
 
 
-$subfooter-bg       : #152741;
-$subfooter-color    : #f7c234;
-$subfooter-link-color: #f7c234;
+$subfooter-bg       : $dark-blue-1;
+$subfooter-color    : $hue-orange-1;
+$subfooter-link-color: $hue-orange-1;
 
 
 

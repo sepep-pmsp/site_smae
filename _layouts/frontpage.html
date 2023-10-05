@@ -11,9 +11,11 @@ format: frontpage
 
 <div class="row t60 b60">
     <section class="medium-12">
+ 8-post-com-video
+        <h1 class="homepage_smae">smae</h1>
     </section>
     <section class="medium-6 columns">
-        <p class="paragrafo_homepage_smae" style="color: #152741;">O Sistema de Monitoramento e Acompanhamento Estratégico é um software livre e de código aberto que foi desenvolvido com o objetivo de promover melhores práticas na gestão da informação e garantir a consistência na coleta de dados relativos ao Programa de Metas e aos Projetos Prioritários da administração pública municipal. Atualmente, seu escopo diz respeito aos ciclos internos de monitoramento do Programa de Metas e de acompanhamento dos Projetos Prioritários. A implementação do SMAE permite substituir e automatizar rotinas anteriormente realizadas de forma manual por meio de softwares proprietários de planilhas e envio de e-mails, que eram morosas e altamente propensas a erros humanos.</p>
+        <p class="paragrafo_homepage_smae">O Sistema de Monitoramento e Acompanhamento Estratégico é um software livre e de código aberto que foi desenvolvido com o objetivo de promover melhores práticas na gestão da informação e garantir a consistência na coleta de dados relativos ao Programa de Metas e aos Projetos Prioritários da administração pública municipal. Atualmente, seu escopo diz respeito aos ciclos internos de monitoramento do Programa de Metas e de acompanhamento dos Projetos Prioritários. A implementação do SMAE permite substituir e automatizar rotinas anteriormente realizadas de forma manual por meio de softwares proprietários de planilhas e envio de e-mails, que eram morosas e altamente propensas a erros humanos.</p>
     </section>
     <section class="video_smae_pt medium-6 columns">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/U41KPUfOSFk?si=-84qGCfyIoam8PID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -28,6 +30,7 @@ format: frontpage
 *
 {% endcomment %}
 <div class="row t60">
+
 	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
 		{% include _frontpage-widget.html widget=page.widget1 %}
 	{% endif %}
@@ -39,6 +42,7 @@ format: frontpage
 	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
 		{% include _frontpage-widget.html widget=page.widget3 %}
 	{% endif %}
+    
 </div><!-- /.row -->
 
 
@@ -122,4 +126,3 @@ format: frontpage
 
 *
 {% endcomment %}
-
