@@ -25,7 +25,7 @@ $crumb-radius: $global-radius !default;
 
 // We use these to set various text styles for breadcrumbs.
 $crumb-font-size: rem-calc(11) !default;
-$crumb-font-color: $primary-color !default;
+$crumb-font-color: $dark-orange-2 !default;
 $crumb-font-color-current: $oil !default;
 $crumb-font-color-unavailable: $aluminum !default;
 $crumb-font-transform: uppercase !default;
@@ -74,7 +74,7 @@ $crumb-slash: "/" !default;
   // Current is for the link of the current page
   &.current {
     cursor: $cursor-default-value;
-    color: $crumb-font-color-current;
+    color: $hue-blue-3 ;
     a {
       cursor: $cursor-default-value;
       color: $crumb-font-color-current;
