@@ -45,9 +45,9 @@
   url: "/blog/"
   side: left
 
-- title: "Busca"
-  url: "/search/"
-  side: right
+- #title: "Busca"
+  #url: "/search/"
+  #side: right
 
 - title: "Contato"
   url: "/contact/"

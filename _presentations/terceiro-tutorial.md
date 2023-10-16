@@ -1,7 +1,9 @@
 ---
 layout: tutorial
+header:
+  image_fullwidth: "bg-header.jpg"
 subheadline: Tutorial
-title:  "Terceiro tutorial do SMAE"
+title:  "Tutorial dos Coordenadores do SMAE"
 teaser: "Manual técnico do Sistema de Monitoramento e acompanhamento Estratégico."
 breadcrumb: true
 categories:
