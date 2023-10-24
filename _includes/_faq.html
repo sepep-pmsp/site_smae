@@ -1,0 +1,40 @@
+
+<body>
+
+<div class="accordion">
+    <div class="section">
+        <div class="section-header" onclick="toggleSection('section1')">Como posso criar um perfil de usuário e usar o SMAE para gerenciar meus projetos? </div>
+        <div class="section-content" id="section1">
+            <p id="conteudo">Para obter acesso ao SMAE é preciso fazer uma solicitação através do e-mail xxxxxx@prefeitura.sp.gov.br informando nome completo, e-mail, órgão de atuação e perfis de acesso. Você receberá um mensagem no email informado com o link para a tela de login do sistema e uma senha temporária para seu primeiro acesso.
+
+            </p>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-header" onclick="toggleSection('section2')">Nâo consigo visualizar todos os módulos de SMAE.</div>
+        <div class="section-content" id="section2">
+            <p id="conteudo">Quando um novo usuário é cadastrado no sistema, são atribuídos à ele alguns perfis de acesso. Você pode visualizar, filtrar e até mesmo modificar dados no SMAE dependendo do seu perfil de acesso. Caso você queira ter acesso a outras módulos do SMAE, faça uma solicitação atraves do e-mail xxxxxxx@prefeitura.sp.gov.br</p>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="section-header" onclick="toggleSection('section3')">Sou administrador do sistema e preciso cadastrar um novo usuário.</div>
+        <div class="section-content" id="section3">
+            <p id="conteudo">Um das atribuições do perfil de administrador do sistema é possibilidade de criar, editar, bloquear e excluir usuários. Para criar um novo usuário, clique no módulo Usuarios no menu do sistema > Na parte superior da página, clique em Novo Usuário > Preencha os campos E-mail, Nome Completo, Lotação e Órgão (os campos com * são obrigatórios) > defina os perfis de acesso do novo usuário (por padrão adotamos os perfis de Ponto Focal e Orçamento-Metas) > na parte inferior da página clique em Criar Cadastro para salvar. Clique aqui para assistir um tutorial sobre a criação de novos usuários no SMAE.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    function toggleSection(sectionId) {
+        var section = document.getElementById(sectionId);
+        if (section.style.display === "block") {
+            section.style.display = "none";
+        } else {
+            section.style.display = "block";
+        }
+    }
+</script>
+
+</body>

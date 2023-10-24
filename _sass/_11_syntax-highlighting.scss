@@ -71,3 +71,41 @@
     .vi    { color: #008080 } // Name.Variable.Instance
     .il    { color: #099 } // Literal.Number.Integer.Long
 }
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    max-width: 590px;
+    margin: 5px; /* Adicione esta linha para criar uma margem de 10 pixels */
+}
+
+.section {
+    border: 5px solid #ffffff;
+    margin-bottom: 15px;
+}
+
+.section-header {
+    background-color: #152741;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 2px 6px 9px $complementary-orange;
+    
+}
+
+.section-content {
+    display: none;
+    padding: 10px;
+}
+#conteudo{
+    background-color: $complementary-orange;
+    border: 1px solid $complementary-blue;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    
+
+}
+#teste{
+    background-color: white;
+    border: 5px solid #ffffff;
+}
