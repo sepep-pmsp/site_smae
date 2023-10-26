@@ -72,40 +72,38 @@
     .il    { color: #099 } // Literal.Number.Integer.Long
 }
 
-.accordion {
-    display: flex;
-    flex-direction: column;
-    max-width: 590px;
-    margin: 5px; /* Adicione esta linha para criar uma margem de 10 pixels */
-}
-
-.section {
+.accordion-menu {
+    max-width: 610px;
+    margin: 10px 0;
+    
+  }
+  
+  .menu-item {
+    margin-bottom: 5px;
     border: 5px solid #ffffff;
     margin-bottom: 15px;
-}
-
-.section-header {
-    background-color: #152741;
+    
+    
+  }
+  
+  .menu-header {
+    background-color: $complementary-blue;
     padding: 10px;
-    cursor: pointer;
     border-radius: 30px;
     box-shadow: 2px 6px 9px $complementary-orange;
-    
-}
-
-.section-content {
+    cursor: pointer;
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .menu-content {
+    box-shadow: 5px 7px 9px  $complementary-blue;
+    color: $complementary-blue;
     display: none;
     padding: 10px;
-}
-#conteudo{
     background-color: $complementary-orange;
-    border: 1px solid $complementary-blue;
-    border-radius: 15px;
+    border: 0px solid ;
+    border-radius: 20px;
     padding: 10px 10px 10px 10px;
-    
-
-}
-#teste{
-    background-color: white;
-    border: 5px solid #ffffff;
-}
+    margin-top: 25px;
+  }

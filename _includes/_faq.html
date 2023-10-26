@@ -1,40 +1,48 @@
 
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 <body>
-
-<div class="accordion">
-    <div class="section">
-        <div class="section-header" onclick="toggleSection('section1')">Como posso criar um perfil de usuário e usar o SMAE para gerenciar meus projetos? </div>
-        <div class="section-content" id="section1">
-            <p id="conteudo">Para obter acesso ao SMAE é preciso fazer uma solicitação através do e-mail xxxxxx@prefeitura.sp.gov.br informando nome completo, e-mail, órgão de atuação e perfis de acesso. Você receberá um mensagem no email informado com o link para a tela de login do sistema e uma senha temporária para seu primeiro acesso.
-
-            </p>
+    <div class="accordion-menu">
+        <div class="menu-item">
+            <h2 class="menu-header" onclick="toggleMenu(this)">Como posso criar um perfil de usuário e usar o SMAE para gerenciar meus projetos? </h2>
+            <div class="menu-content">Para obter acesso ao SMAE é preciso fazer uma solicitação através do e-mail smae.prefeitura.sp@fgv.br informando nome completo, e-mail, órgão de atuação e perfis de acesso. Você receberá um mensagem no email informado com o link para a tela de login do sistema e uma senha temporária para seu primeiro acesso. </div>
         </div>
-    </div>
-    
-    <div class="section">
-        <div class="section-header" onclick="toggleSection('section2')">Nâo consigo visualizar todos os módulos de SMAE.</div>
-        <div class="section-content" id="section2">
-            <p id="conteudo">Quando um novo usuário é cadastrado no sistema, são atribuídos à ele alguns perfis de acesso. Você pode visualizar, filtrar e até mesmo modificar dados no SMAE dependendo do seu perfil de acesso. Caso você queira ter acesso a outras módulos do SMAE, faça uma solicitação atraves do e-mail xxxxxxx@prefeitura.sp.gov.br</p>
+        <div class="menu-item">
+            <h2 class="menu-header" onclick="toggleMenu(this)">Não consigo visualizar todos os módulos de SMAE. </h2>
+            <div class="menu-content">Quando um novo usuário é cadastrado no sistema, são atribuídos à ele alguns perfis de acesso. Você pode visualizar, filtrar e até mesmo modificar dados no SMAE dependendo do seu perfil de acesso. Caso você queira ter acesso a outras módulos do SMAE, faça uma solicitação através do e-mail smae.prefeitura.sp@fgv.br. </div>
         </div>
-    </div>
-    
-    <div class="section">
-        <div class="section-header" onclick="toggleSection('section3')">Sou administrador do sistema e preciso cadastrar um novo usuário.</div>
-        <div class="section-content" id="section3">
-            <p id="conteudo">Um das atribuições do perfil de administrador do sistema é possibilidade de criar, editar, bloquear e excluir usuários. Para criar um novo usuário, clique no módulo Usuarios no menu do sistema > Na parte superior da página, clique em Novo Usuário > Preencha os campos E-mail, Nome Completo, Lotação e Órgão (os campos com * são obrigatórios) > defina os perfis de acesso do novo usuário (por padrão adotamos os perfis de Ponto Focal e Orçamento-Metas) > na parte inferior da página clique em Criar Cadastro para salvar. Clique aqui para assistir um tutorial sobre a criação de novos usuários no SMAE.</p>
+        <div class="menu-item">
+            <h2 class="menu-header" onclick="toggleMenu(this)">Sou administrador do sistema e preciso cadastrar um novo usuário.</h2>
+            <div class="menu-content">Uma das atribuições do perfil de administrador do sistema é possibilidade de criar, editar, bloquear e excluir usuários. Para criar um novo usuário, clique no módulo Usuários no menu do sistema > Na parte superior da página, clique em Novo Usuário > Preencha os campos E-mail, Nome Completo, Lotação e Órgão (os campos com * são obrigatórios) > defina os perfis de acesso do novo usuário (por padrão adotamos os perfis de Ponto Focal e Orçamento-Metas) > na parte inferior da página clique em Criar Cadastro para salvar. Clique aqui para assistir um tutorial sobre a criação de novos usuários no SMAE.  </div>
         </div>
+        <div class="menu-item">
+            <h2 class="menu-header" onclick="toggleMenu(this)">E se eu esquecer a minha senha?</h2>
+            <div class="menu-content">É muito comum que se esqueça das senhas, por isso o SMAE tem uma opção de "Esqueci minha senha", onde enviará uma senha temporária para o e-mail cadastrado. Clique no "Esqueci minha senha"; informe o e-mail cadastrado e utilize a senha enviada por e-mal. Depois registre sua nova senha para garantir seu acesso!</div>
+        </div>
+        <!-- Adicione mais itens de menu conforme necessário -->
     </div>
-</div>
 
-<script>
-    function toggleSection(sectionId) {
-        var section = document.getElementById(sectionId);
-        if (section.style.display === "block") {
-            section.style.display = "none";
-        } else {
-            section.style.display = "block";
+    <script>
+        function toggleMenu(header) {
+            var content = header.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+                closeOtherMenus(header);
+            }
         }
-    }
-</script>
 
+        function closeOtherMenus(currentHeader) {
+            var headers = document.querySelectorAll(".menu-header");
+            headers.forEach(function (header) {
+                if (header !== currentHeader) {
+                    header.nextElementSibling.style.display = "none";
+                }
+            });
+        }
+    </script>
 </body>
+</html>

@@ -23,6 +23,8 @@ header:
 
 [Sou administrador do sistema e preciso cadastrar um novo usuário.](#toc)
 
+[E se eu esquecer a minha senha?](#toc)
+
 </div>
 </div><!-- /.medium-4.columns -->
 
