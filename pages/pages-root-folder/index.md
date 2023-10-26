@@ -12,18 +12,18 @@ header:
 widget1:
   title: "Sobre o SMAE"
   url: '/sobre-smae/'
-  image: foto-lançamento-smae.jpeg
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+  image: Sobre-o-SMAE.jpg
+  text: 'Conheça mais sobre o Sistema de Monitoramento e Acompanhamento Estratégico, uma ferramenta de código aberto, desenvolvida a partir do zero e pensada a partir das especificidades da gestão de projetos dentro da Administração Pública.'
 widget2:
   title: "Tutoriais sobre o SMAE"
   url: '/tutoriais/'
-  image: tutorial.jpg
-  text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam temporibus nisi illo quos. Repudiandae fuga itaque eveniet eum culpa inventore. Iusto perspiciatis natus totam labore eaque adipisci repudiandae neque cum.'
+  image: Tutorial.svg
+  text: 'Dúvidas sobre o uso do SMAE? Quer aprender mais sobre as funcionalidades do sistema? Aqui você encontra tutoriais em vídeo sobre as principais ferramentas do SMAE, seja você administrador ou usuário final.'
 widget3:
   title: "Acesse o ambiente do SMAE"
   url: 'https://smae.prefeitura.sp.fgv.br/login'
-  image: fundo-azul.jpg
-  text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam temporibus nisi illo quos. Repudiandae fuga itaque eveniet eum culpa inventore. Iusto perspiciatis natus totam labore eaque adipisci repudiandae neque cum.'
+  image: homepage-do-smae.png
+  text: 'O SMAE é uma ferramenta online e pode ser acessado através de qualquer navegador, incluindo seu smartphone Android ou IOS. Clique no link abaixo para acessar a tela de login do sistema.'
 
   
 #
