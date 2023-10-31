@@ -36,10 +36,14 @@
   url: "/documentation/"
   side: left
   dropdown:
-  - title: " Histórico de Mudanças"
+  - title: " Manuais de usuário "
     url: "/changelog/"
-  - title: "Mapa de Desenvolvimento"
+  - title: " Historico de Mudanças "
     url: "/roadmap/"
+  - title: " Mapa de Desenvolvimento "
+    url: "/"
+  - title: "Documentação Técnica"
+  url: "/"
 
 - title: Novidades
   url: "/blog/"
