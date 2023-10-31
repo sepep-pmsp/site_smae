@@ -19,14 +19,14 @@
   - title: "Etc"
     url: "/tutoriais/quarto-tutorial/"
 
-- title: "Video-aulas"
-  url: "/video-aulas/"
-  side: left
-  dropdown:
-  - title: "Primeira video-aula"
-    url: "/video-aulas/primeira-video-aula/"
-  - title: "Segunda video-aula"
-    url: "/video-aulas/segunda-video-aula/"
+#- title: "Video-aulas"
+#  url: "/video-aulas/"
+#  side: left
+#  dropdown:
+#  - title: "Primeira video-aula"
+#    url: "/video-aulas/primeira-video-aula/"
+#  - title: "Segunda video-aula"
+#    url: "/video-aulas/segunda-video-aula/"
 
 - title: "Dúvidas e FAQ"
   url: "/duvidas-e-faq/"
