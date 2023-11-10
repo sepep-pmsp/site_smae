@@ -9,24 +9,15 @@
 - title: "Tutoriais"
   url: "/tutoriais/"
   side: left
-  dropdown:
-  - title: "Usuários"
-    url: "/tutoriais/primeiro-tutorial/"
-  - title: "Administradores"
-    url: "/tutoriais/segundo-tutorial"
-  - title: "Coordenadores"
-    url: "/tutoriais/terceiro-tutorial/"
-  - title: "Etc"
-    url: "/tutoriais/quarto-tutorial/"
 
-- title: "Video-aulas"
-  url: "/video-aulas/"
-  side: left
-  dropdown:
-  - title: "Primeira video-aula"
-    url: "/video-aulas/primeira-video-aula/"
-  - title: "Segunda video-aula"
-    url: "/video-aulas/segunda-video-aula/"
+#- title: "Video-aulas"
+#  url: "/video-aulas/"
+#  side: left
+#  dropdown:
+#  - title: "Primeira video-aula"
+#    url: "/video-aulas/primeira-video-aula/"
+#  - title: "Segunda video-aula"
+#    url: "/video-aulas/segunda-video-aula/"
 
 - title: "Dúvidas e FAQ"
   url: "/duvidas-e-faq/"
@@ -36,10 +27,14 @@
   url: "/documentation/"
   side: left
   dropdown:
-  - title: " Histórico de Mudanças"
+  - title: " Manuais de usuário "
     url: "/changelog/"
-  - title: "Mapa de Desenvolvimento"
+  - title: " Historico de Mudanças "
     url: "/roadmap/"
+  - title: " Mapa de Desenvolvimento "
+    url: "/"
+  - title: "Documentação Técnica"
+  url: "/"
 
 - title: Novidades
   url: "/blog/"
