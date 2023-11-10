@@ -273,11 +273,11 @@ asciidoctor:
 
 collections:
 
-  videos:
+  tutoriais:
     output: true
-    permalink: /video-aulas/:name
+    permalink: /tutoriais/:name
+    sort_by: tema
 
   presentations:
     output: true
-    permalink: /tutoriais/:name
-    
+    permalink: /documentacao/:name

@@ -32,9 +32,6 @@ header:
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 {% include _improve.html %} 
    <div class="small-12 columns" markdown="1">
-   {% include _faq.html %} 
+   {% include _faq.html %}
    </div>
-
 </div>
-
-

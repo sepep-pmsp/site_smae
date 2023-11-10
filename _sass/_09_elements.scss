@@ -95,11 +95,11 @@
 ------------------------------------------------------------------- */
 
 button, .button         { letter-spacing: 1px; }
-  button.grey, .button.grey { background: $grey-10; }
+  button.grey, .button.grey { background: $monocromatico-1; }
   button.grey:hover,
   button.grey:focus,
   .button.grey:hover,
-  .button.grey:focus      { background-color: $grey-16; }
+  .button.grey:focus      { background-color: $monocromatico-7; }
 
 
 
@@ -159,4 +159,31 @@ img.lazy {
     padding-top: 50px;
     margin-top: -50px;
   }
+}
+
+
+// Button da Pagina Tutotiais
+
+.button-tutoras{
+  margin: -40px; 
+  margin-left: 400px; 
+  border: 0px solid; 
+  border-radius: 25px; 
+  height: 50px;
+}
+
+.button-tutoras{
+  top: 25px; 
+  background-color: $monocromatico-7;
+  color: $dark-blue-1;
+  box-shadow: 1px 1px 9px 3px $dark-blue-1;
+}
+
+.button-tutoras:hover{
+  text-align: center;
+  background-color: $dark-blue-1;
+  color: $hue-orange-2;
+  box-shadow: 1px 1px 9px 2px $monocromatico-2;
+  border-width: 2px 2px 2px 2px;
+  border-color: $monocromatico-7;
 }
