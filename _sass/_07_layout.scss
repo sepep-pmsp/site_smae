@@ -24,7 +24,7 @@
 ------------------------------------------------------------------- */
 
 body.video,
-body.video #masthead-no-image-header { background: #000; }
+body.video #masthead-no-image-header { background: #152741; }
 body.video #masthead-no-image-header { margin-bottom: 60px; }
 body.video h1,
 body.video h2,
@@ -39,6 +39,7 @@ body.video blockquote:after,
 body.video cite a, { color: #fff; }
 body.video cite a:visited, { color: #fff; }
 body.video cite { color: #fff; }
+.video {background-image: linear-gradient(to right bottom, #152741, #613e6d, #b84f73, #f37a56, #f7c234);}
 
 
 /* Sistema SMAE
