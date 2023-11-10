@@ -9,15 +9,6 @@
 - title: "Tutoriais"
   url: "/tutoriais/"
   side: left
-  dropdown:
-  - title: "Usuários"
-    url: "/tutoriais/primeiro-tutorial/"
-  - title: "Administradores"
-    url: "/tutoriais/segundo-tutorial"
-  - title: "Coordenadores"
-    url: "/tutoriais/terceiro-tutorial/"
-  - title: "Etc"
-    url: "/tutoriais/quarto-tutorial/"
 
 - title: "Video-aulas"
   url: "/video-aulas/"
