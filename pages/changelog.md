@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Change is good!"
+title: "Registro de alterações"
 meta_title: "Feeling Responsive Theme Changelog"
 subheadline: "Feeling Responsive Theme Changelog"
 teaser: "History and changelog of Feeling Responsive Theme"
