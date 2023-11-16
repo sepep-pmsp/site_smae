@@ -7,4 +7,4 @@ title               : "Contato"
 permalink           : "/contact/"
 ---
 
-![Página em Construção](../images/pagina-em-construcao.png) 
+![Página em Construção]({{ site.urlimg }}pagina-em-construcao.png) 

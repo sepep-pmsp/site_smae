@@ -19,7 +19,7 @@ O Sistema de Monitoramento e Acompanhamento Estratégico é um software livre e 
 
 
 
-<p><img class="img-sobre" src="../images/foto-lançamento-smae.jpeg" alt="Lançamento do SMAE"></p>
+<p><img class="img-sobre" src="{{ site.urlimg }}foto-lançamento-smae.jpeg" alt="Lançamento do SMAE"></p>
 
 
 
