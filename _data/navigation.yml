@@ -10,14 +10,6 @@
   url: "/tutoriais/"
   side: left
 
-#- title: "Video-aulas"
-#  url: "/video-aulas/"
-#  side: left
-#  dropdown:
-#  - title: "Primeira video-aula"
-#    url: "/video-aulas/primeira-video-aula/"
-#  - title: "Segunda video-aula"
-#    url: "/video-aulas/segunda-video-aula/"
 
 - title: "Dúvidas e FAQ"
   url: "/duvidas-e-faq/"
@@ -28,13 +20,13 @@
   side: left
   dropdown:
   - title: " Manuais de usuário "
-    url: "/changelog/"
+    url: "/manuais-de-usuario/"
   - title: " Historico de Mudanças "
-    url: "/roadmap/"
+    url: "/changelog/"
   - title: " Mapa de Desenvolvimento "
-    url: "/"
+    url: "/roadmap/"
   - title: "Documentação Técnica"
-  url: "/"
+    url: "/documentacao-tecnica/"
 
 - title: Novidades
   url: "/blog/"
