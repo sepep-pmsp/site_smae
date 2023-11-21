@@ -1,0 +1,57 @@
+version: "3.3"
+
+services:
+
+  traefik:
+    image: "traefik:v2.10"
+    container_name: "traefik"
+    command:
+      #- "--log.level=DEBUG"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.web.http.redirections.entryPoint.to=websecure"
+      - "--entrypoints.web.http.redirections.entryPoint.scheme=https"
+      - "--entrypoints.web.http.redirections.entrypoint.permanent=true"
+      - "--entrypoints.websecure.address=:443"
+      - "--certificatesresolvers.certificadofront.acme.httpchallenge=true"
+      - "--certificatesresolvers.certificadofront.acme.httpchallenge.entrypoint=web"
+      - "--certificatesresolvers.certificadofront.acme.email=babalzano@prefeitura.sp.gov.br"
+      - "--certificatesresolvers.certificadofront.acme.storage=/letsencrypt/acme.json"
+    networks:
+      - traefik-net
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - "traefik-data:/letsencrypt"
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+
+  frontend:
+    build: 
+      context: .
+    image: site-smae:latest
+    networks:
+      - traefik-net
+    ports:
+      - "4000"
+    restart: always
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.frontend.entrypoints=websecure"
+      - "traefik.http.routers.frontend.rule=Host(`smae.prefeitura.sp.gov.br`) || Host(`www.smae.prefeitura.sp.gov.br`)"
+      - "traefik.http.routers.frontend.tls.certresolver=certificadofront"
+      - "traefik.http.routers.frontend.tls=true"
+      - "traefik.http.routers.frontend.tls.domains[0].main=smae.prefeitura.sp.gov.br"
+      - "traefik.http.routers.frontend.tls.domains[1].main=www.smae.prefeitura.sp.gov.br"
+      - "traefik.http.services.frontend.loadbalancer.server.port=4000"
+      - "traefik.http.routers.frontend.middlewares=frontend-ratelimit"
+      - "traefik.http.middlewares.frontend-ratelimit.ratelimit.average=1000"
+      - "traefik.http.middlewares.frontend-ratelimit.ratelimit.period=10s"
+      - "traefik.http.middlewares.frontend-ratelimit.ratelimit.burst=500"
+
+networks:
+  traefik-net:
+
+volumes:
+  traefik-data:
