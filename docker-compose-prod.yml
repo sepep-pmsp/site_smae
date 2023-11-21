@@ -16,7 +16,7 @@ services:
       - "--entrypoints.websecure.address=:443"
       - "--certificatesresolvers.certificadofront.acme.httpchallenge=true"
       - "--certificatesresolvers.certificadofront.acme.httpchallenge.entrypoint=web"
-      - "--certificatesresolvers.certificadofront.acme.email=babalzano@prefeitura.sp.gov.br"
+      - "--certificatesresolvers.certificadofront.acme.email=${LE_EMAIL}"
       - "--certificatesresolvers.certificadofront.acme.storage=/letsencrypt/acme.json"
     networks:
       - traefik-net
