@@ -1,0 +1,6 @@
+_site
+.jekyll-cache
+docker-compose*
+**Dockerfile**
+.git*
+.ruby-version
