@@ -23,4 +23,8 @@ RUN chown -R jekyll:jekyll /site
 
 USER jekyll
 
-CMD [ "bundle", "exec", "jekyll", "serve", "--force_polling", "-H", "0.0.0.0", "-P", "4000" ]
+RUN bundle exec jekyll build
+
+FROM nginx:stable
+
+COPY --from=jekyll /site/_site /usr/share/nginx/html

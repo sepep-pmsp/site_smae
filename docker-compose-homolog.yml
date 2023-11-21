@@ -27,13 +27,13 @@ services:
     networks:
       - traefik-net
     ports:
-      - "4000:4000"
+      - "4000:80"
     restart: always
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.frontend.entrypoints=web"
       - "traefik.http.routers.frontend.rule=Host(`smae.prefeitura.sp.gov.br`)"
-      - "traefik.http.services.frontend.loadbalancer.server.port=4000"
+      - "traefik.http.services.frontend.loadbalancer.server.port=80"
       - "traefik.http.routers.frontend.middlewares=frontend-ratelimit"
       - "traefik.http.middlewares.frontend-ratelimit.ratelimit.average=1000"
       - "traefik.http.middlewares.frontend-ratelimit.ratelimit.period=10s"
