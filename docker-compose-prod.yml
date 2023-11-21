@@ -14,6 +14,7 @@ services:
       - "--entrypoints.web.http.redirections.entryPoint.scheme=https"
       - "--entrypoints.web.http.redirections.entrypoint.permanent=true"
       - "--entrypoints.websecure.address=:443"
+      - "--certificatesresolvers.customer.acme.caserver=${LE_ACME_URL}"
       - "--certificatesresolvers.certificadofront.acme.httpchallenge=true"
       - "--certificatesresolvers.certificadofront.acme.httpchallenge.entrypoint=web"
       - "--certificatesresolvers.certificadofront.acme.email=${LE_EMAIL}"
