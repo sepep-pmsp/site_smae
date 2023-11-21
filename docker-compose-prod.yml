@@ -33,9 +33,9 @@ services:
     image: site-smae:latest
     networks:
       - traefik-net
-    ports:
-      - "4000"
     restart: always
+    volumes:
+      - nginx-cache:/var/cache/nginx
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.frontend.entrypoints=websecure"
@@ -44,7 +44,7 @@ services:
       - "traefik.http.routers.frontend.tls=true"
       - "traefik.http.routers.frontend.tls.domains[0].main=smae.prefeitura.sp.gov.br"
       - "traefik.http.routers.frontend.tls.domains[1].main=www.smae.prefeitura.sp.gov.br"
-      - "traefik.http.services.frontend.loadbalancer.server.port=4000"
+      - "traefik.http.services.frontend.loadbalancer.server.port=80"
       - "traefik.http.routers.frontend.middlewares=frontend-ratelimit"
       - "traefik.http.middlewares.frontend-ratelimit.ratelimit.average=1000"
       - "traefik.http.middlewares.frontend-ratelimit.ratelimit.period=10s"
@@ -55,3 +55,4 @@ networks:
 
 volumes:
   traefik-data:
+  nginx-cache:
