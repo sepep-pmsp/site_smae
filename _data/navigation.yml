@@ -29,7 +29,7 @@
     url: "/documentacao-tecnica/"
 
 - title: Novidades
-  url: "/blog/"
+  url: "/novidades/"
   side: left
 
 - #title: "Busca"
