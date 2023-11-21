@@ -38,10 +38,5 @@ services:
       - "traefik.http.middlewares.frontend-ratelimit.ratelimit.average=1000"
       - "traefik.http.middlewares.frontend-ratelimit.ratelimit.period=10s"
       - "traefik.http.middlewares.frontend-ratelimit.ratelimit.burst=500"
-      - "traefik.http.middlewares.trailing-slash.redirectregex.regex=^(https?://[^/]+/[a-z0-9_]+)$$"
-      - "traefik.http.middlewares.trailing-slash.redirectregex.replacement=$${1}/"
-      - "traefik.http.middlewares.trailing-slash.redirectregex.permanent=true"
-      - "traefik.http.routers.frontend.middlewares=trailing-slash"
-
 networks:
   traefik-net:
