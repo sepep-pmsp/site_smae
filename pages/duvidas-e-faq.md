@@ -19,9 +19,9 @@ header:
 
 [Como posso criar um perfil de usuário e usar o SMAE para gerenciar meus projetos?](#toc)
 
-[Nâo consigo visualizar todos os módulos de SMAE.](#toc)
+[Não consegue visualizar todos os módulos de SMAE?](#toc)
 
-[Sou administrador do sistema e preciso cadastrar um novo usuário.](#toc)
+[Você é o administrador do sistema e precisa cadastrar um novo usuário?](#toc)
 
 [E se eu esquecer a minha senha?](#toc)
 
