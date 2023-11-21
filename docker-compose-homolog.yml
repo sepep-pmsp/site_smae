@@ -29,6 +29,8 @@ services:
     ports:
       - "4000:80"
     restart: always
+    volumes:
+      - nginx-cache:/var/cache/nginx
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.frontend.entrypoints=web"
@@ -40,3 +42,6 @@ services:
       - "traefik.http.middlewares.frontend-ratelimit.ratelimit.burst=500"
 networks:
   traefik-net:
+
+volumes:
+  nginx-cache:
