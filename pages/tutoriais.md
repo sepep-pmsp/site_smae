@@ -12,19 +12,7 @@ permalink: "/tutoriais/"
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
 <div class="panel radius" markdown="1">
-**Table of Contents**
-{: #toc }
-*  TOC
-{:toc}
-
-[Lorem ipsum dolor sit amet consectetur, adipisicing elit.](#toc)
-
-[Lorem ipsum dolor sit amet consectetur, adipisicing elit.](#toc)
-
-[Lorem ipsum dolor sit amet consectetur, adipisicing elit.](#toc)
-
-[Lorem ipsum dolor sit amet consectetur, adipisicing elit.](#toc)
-
+   {% include toc.liquid %}
 </div>
 </div>
 <!-- /.medium-4.columns -->
@@ -43,22 +31,28 @@ permalink: "/tutoriais/"
    {% assign tema_atual = null %}
 
    {% for tutorial in site.tutoriais %}
+   {% assign tema_mudou = false %}
    {% if tema_atual != tutorial.tema %}
-   {% assign tema_atual = tutorial.tema %}
-   <h2 class="tema-header">{{ tutorial.tema | strip }}</h2>
-   {% endif %}
-      <div class="menu-item">
-         <h2 class="menu-header" onclick="toggleMenu(this)">{{ tutorial.subtema | strip }}</h2>
-         <div class="menu-content">
-         <iframe class="video-tutoras" width='580' height='315' src='https://www.youtube.com/embed/GI4QadBz_Dk?si=kHitVEunqi9x5l1-' frameborder='0' allowfullscreen></iframe>
-         <div>
-            <p>{{ tutorial.sinopse | strip }}</p>
-            <a href="{{ tutorial.permalink }}"><button class="button-tutoras">Saiba mais</button></a>
-         </div>
-         </div>
+  
+      {% assign tema_atual = tutorial.tema %}
+      {% assign tema_mudou = true %}
+  {% endif %}
+
+  {% if tema_mudou %}
+    <h2 id="{{ tutorial.tema | slugify }}" class="tema-header">{{ tutorial.tema | strip }}</h2>
+  {% endif %}
+
+  <div class="menu-item">
+    <h2 id="{{ tutorial.subtema | slugify }}" class="menu-header" onclick="toggleMenu(this)">{{ tutorial.subtema | strip }}</h2>
+    <div class="menu-content">
+      <iframe class="video-tutoras" width='580' height='315' src='{{ tutorial.video }}' frameborder='0' allowfullscreen></iframe>
+      <div>
+        <p>{{ tutorial.sinopse | strip }}</p>
+        <a href="{{ tutorial.permalink }}"><button class="button-tutoras">Saiba mais</button></a>
       </div>
-   {% endfor %}
-   </div>
+    </div>
+  </div>
+{% endfor %}
 
 
 </div>
@@ -69,23 +63,5 @@ permalink: "/tutoriais/"
 
 <!-- codigo JS -->
 
-<script>
-   function toggleMenu(header) {
-      var content = header.nextElementSibling;
-      if (content.style.display === "block") {
-            content.style.display = "none";
-      } else {
-            content.style.display = "block";
-            closeOtherMenus(header);
-      }
-   }
-
-   function closeOtherMenus(currentHeader) {
-      var headers = document.querySelectorAll(".menu-header");
-      headers.forEach(function (header) {
-            if (header !== currentHeader) {
-               header.nextElementSibling.style.display = "none";
-            }
-      });
-   }
-</script>
+<script src="{{ url }}/assets/js/toc_tutoriais.js"></script>
+<script src="{{ url }}/assets/js/scroll.js"></script>

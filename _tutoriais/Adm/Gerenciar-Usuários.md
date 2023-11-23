@@ -25,14 +25,14 @@ sinopse: Neste tutorial aprenderemos como criar, editar e inativar um usuário d
 <!--Breadcrumbs-->
 
 
-<nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
- <a href="{{ site.url }}{{ site.baseurl }}">{{ site.data.language.breadcrumb_start }}</a>
- {% assign crumbs = page.url | split: '/' %}
-   {% for crumb in crumbs offset: 1 %}
+<nav class="breadcrumbs" id="breadcrumbs-tutoriais" role="menubar" aria-label="breadcrumbs">
+  <a href="{{ site.url }}/tutoriais/">Tutoriais</a>
+  {% assign crumbs = page.url | split: '/' %}
+  {% for crumb in crumbs offset: 1 %}
     {% if forloop.last %}
-        <a class="current">{{ page.title }}</a>
+      <a class="current">{{ page.title }}</a>
     {% else %}
-        <a href="{{ site.url }}{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' }}</a>
+      <a href="{{ site.url }}{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' }}</a>
     {% endif %}
   {% endfor %}
 </nav>
