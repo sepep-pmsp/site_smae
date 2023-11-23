@@ -140,6 +140,7 @@ $callout-panel-link-color-hover: scale-color($callout-panel-link-color, $lightne
 
       &.radius {
         @include radius;
+        border-radius: 40px;
       }
 
     }
