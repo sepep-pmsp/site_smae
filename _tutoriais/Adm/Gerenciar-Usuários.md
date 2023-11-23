@@ -20,7 +20,7 @@ sinopse: Neste tutorial aprenderemos como criar, editar e inativar um usuário d
 
 <!--Video-->
 
-<iframe width='970' height='546' src='https://www.youtube.com/embed/ASvpOBzZvhk?si=uoFRiaVwzBQt4yIC' frameborder='0' allowfullscreen></iframe>
+<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/ASvpOBzZvhk?si=uoFRiaVwzBQt4yIC' frameborder='0' allowfullscreen></iframe>
 
 <!--Breadcrumbs-->
 

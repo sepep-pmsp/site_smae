@@ -20,7 +20,7 @@ sinopse: Os Perfis de Acesso definem o que o usuário pode ou não fazer no sist
 
 <!--Video-->
 
-<iframe width='970' height='546' src='https://www.youtube.com/embed/C00MnakFrM8?si=zjS4b-05R9p3rvFe' frameborder='0' allowfullscreen></iframe>
+<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/C00MnakFrM8?si=zjS4b-05R9p3rvFe' frameborder='0' allowfullscreen></iframe>
 
 <!--Breadcrumbs-->
 

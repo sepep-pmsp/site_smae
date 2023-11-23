@@ -50,7 +50,7 @@ permalink: "/tutoriais/"
       <div class="menu-item">
          <h2 class="menu-header" onclick="toggleMenu(this)">{{ tutorial.subtema | strip }}</h2>
          <div class="menu-content">
-         <iframe width='580' height='315' src='https://www.youtube.com/embed/GI4QadBz_Dk?si=kHitVEunqi9x5l1-' frameborder='0' allowfullscreen></iframe>
+         <iframe class="video-tutoras" width='580' height='315' src='https://www.youtube.com/embed/GI4QadBz_Dk?si=kHitVEunqi9x5l1-' frameborder='0' allowfullscreen></iframe>
          <div>
             <p>{{ tutorial.sinopse | strip }}</p>
             <a href="{{ tutorial.permalink }}"><button class="button-tutoras">Saiba mais</button></a>
