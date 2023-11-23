@@ -12,19 +12,7 @@ header:
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
 <div class="panel radius" markdown="1">
-**Table of Contents**
-{: #toc }
-*  TOC
-{:toc}
-
-[Como posso criar um perfil de usuário e usar o SMAE para gerenciar meus projetos?](#toc)
-
-[Nâo consigo visualizar todos os módulos de SMAE.](#toc)
-
-[Sou administrador do sistema e preciso cadastrar um novo usuário.](#toc)
-
-[E se eu esquecer a minha senha?](#toc)
-
+   <div id="toc-container"></div>
 </div>
 </div><!-- /.medium-4.columns -->
 
@@ -35,3 +23,4 @@ header:
    {% include _faq.html %}
    </div>
 </div>
+
