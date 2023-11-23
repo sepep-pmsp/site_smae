@@ -130,3 +130,21 @@ $crumb-slash: "/" !default;
 [aria-label="breadcrumbs"] [aria-hidden="true"]:after {
   content: "/";
   }
+
+
+/* Breadcrumbs da pargina Tutoriais */
+
+#breadcrumbs-tutoriais{
+  background-color: $complementary-blue;
+  border-color: #E4E4E4;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px $hue-orange-4;
+}
+
+#breadcrumbs-tutorias a::before a {
+  text-align: center;
+}
+
+#breadcrumbs-tutorias :current{
+  text-align: center;
+}
