@@ -22,7 +22,7 @@ sinopse: O painel de Análise do SMAE pode ser definido como um dashboard que co
 
 <!--Video-->
 
-<iframe width='970' height='546' src='https://www.youtube.com/embed/nCmlYbDaDjQ?si=3JbnconjMAKyecnW' frameborder='0' allowfullscreen></iframe>
+<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/nCmlYbDaDjQ?si=3JbnconjMAKyecnW' frameborder='0' allowfullscreen></iframe>
 
 <!--Breadcrumbs-->
 
