@@ -2,6 +2,7 @@
 <html>
 <head>
     <script src="../assets/js/toc.js"></script>
+    <script src="../assets/js/accordion.js"></script>
 </head>
 <body>
     <div class="accordion-menu">
@@ -23,26 +24,5 @@
         </div>
         <!-- Adicione mais itens de menu conforme necessário -->
     </div>
-
-    <script>
-        function toggleMenu(header) {
-            var content = header.nextElementSibling;
-            if (content.style.display === "block") {
-                content.style.display = "none";
-            } else {
-                content.style.display = "block";
-                closeOtherMenus(header);
-            }
-        }
-
-        function closeOtherMenus(currentHeader) {
-            var headers = document.querySelectorAll(".menu-header");
-            headers.forEach(function (header) {
-                if (header !== currentHeader) {
-                    header.nextElementSibling.style.display = "none";
-                }
-            });
-        }
-    </script>
 </body>
 </html>
