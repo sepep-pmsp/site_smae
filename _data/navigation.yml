@@ -36,6 +36,10 @@
   #url: "/search/"
   #side: right
 
+- title: "Entrar"
+  url: "/entrar/"
+  side: right
+
 - title: "Contato"
   url: "/contact/"
   side: right
