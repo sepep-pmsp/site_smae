@@ -5,7 +5,7 @@ categories:
 permalink: "/analise-ferramentas-do-painel-de-analise/"
 tema: Análise
 subtema: Ferramentas do Painél de Análise
-video: https://www.youtube.com/embed/GI4QadBz_Dk?si=7SKyX4NKv_dgeKyr
+video: https://www.youtube.com/embed/GI4QadBz_Dk?si=5uYNh2JPv4A-dZPC
 sinopse: O painel de Análise do SMAE pode ser definido como um dashboard que concentra todas as informações de Metas e Projetos cadastrados no sistema. Através deste painel podemos filtrar informações sobre projetos de forma simples e visualizar grandes quantidades de dados de maneira fácil e dinâmica no melhor estilo Power BI. 
 ---
 
@@ -22,7 +22,7 @@ sinopse: O painel de Análise do SMAE pode ser definido como um dashboard que co
 
 <!--Video-->
 
-<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/GI4QadBz_Dk?si=7SKyX4NKv_dgeKyr' frameborder='0' allowfullscreen></iframe>
+<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/GI4QadBz_Dk?si=5uYNh2JPv4A-dZPC' frameborder='0' allowfullscreen></iframe>
 
 <!--Breadcrumbs-->
 

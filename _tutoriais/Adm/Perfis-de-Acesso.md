@@ -5,7 +5,7 @@ categories:
 permalink: "/adm-perfis-de-acesso/"
 tema: ADMINISTRAÇÃO
 subtema: Perfis de acesso
-video: https://www.youtube.com/embed/apU1CSB5E44?si=y8Pnd7tQ5YQNovSi
+video: https://www.youtube.com/embed/fW42xnRxPLc?si=nMsIXooRIF-DIqhZ
 sinopse: Os Perfis de Acesso definem o que o usuário pode ou não fazer no sistema como, por exemplo, criar e editar projetos, fazer alterações no PdM, inserir ou excluir dados, entre outros. Neste tutorial iremos intender mais a fundo o que cada Perfil pode fazer dentro do SMAE
 ---
 <!--Title-->
@@ -20,7 +20,7 @@ sinopse: Os Perfis de Acesso definem o que o usuário pode ou não fazer no sist
 
 <!--Video-->
 
-<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/C00MnakFrM8?si=zjS4b-05R9p3rvFe' frameborder='0' allowfullscreen></iframe>
+<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/fW42xnRxPLc?si=nMsIXooRIF-DIqhZ' frameborder='0' allowfullscreen></iframe>
 
 <!--Breadcrumbs-->
 

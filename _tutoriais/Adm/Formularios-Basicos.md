@@ -5,7 +5,7 @@ categories:
 permalink: "/adm-formularios-basicos/"
 tema: ADMINISTRAÇÃO
 subtema: Formulários Básicos
-video: https://www.youtube.com/embed/apU1CSB5E44?si=y8Pnd7tQ5YQNovSi
+video: https://www.youtube.com/embed/kbPmvTD-pJs?si=fPhpn_3IbbIO6zmy
 sinopse: Através da opção Formulários Básicos, podemos inserir metadados no SMAE que serão úteis no gerenciamento de projetos. Esses metadados podem ser órgãos da adminstração pública e seus depertamentos, unidades de medida, tipos de documento, categorias e informações geográficas como regiões, subprefeituras e distritos.
 ---
 
@@ -21,7 +21,7 @@ sinopse: Através da opção Formulários Básicos, podemos inserir metadados no
 
 <!--Video-->
 
-<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/apU1CSB5E44?si=y8Pnd7tQ5YQNovSi' frameborder='0' allowfullscreen></iframe>
+<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/kbPmvTD-pJs?si=fPhpn_3IbbIO6zmy' frameborder='0' allowfullscreen></iframe>
 
 <!--Breadcrumbs-->
 
