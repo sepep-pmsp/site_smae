@@ -1,0 +1,16 @@
+<ul class="toc">
+  {% assign temas = site.tutoriais | group_by: 'tema' %}
+  {% for tema in temas %}
+    <li>
+      <a href="#{{ tema.name | slugify }}">{{ tema.name | strip }}</a>
+      <ul>
+        {% for subtema in tema.items %}
+          <li><a href="#{{ subtema.subtema | slugify }}" class="subtema-link">{{ subtema.subtema | strip }}</a></li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+</ul>
+
+<script src="{{ url }}/assets/js/toc_script.js"></script>
+
