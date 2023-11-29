@@ -33,6 +33,7 @@ permalink: "/tutoriais/"
    {% for tutorial in site.tutoriais %}
    {% assign tema_mudou = false %}
    {% if tema_atual != tutorial.tema %}
+  
       {% assign tema_atual = tutorial.tema %}
       {% assign tema_mudou = true %}
   {% endif %}
@@ -44,7 +45,7 @@ permalink: "/tutoriais/"
   <div class="menu-item">
     <h2 id="{{ tutorial.subtema | slugify }}" class="menu-header" onclick="toggleMenu(this)">{{ tutorial.subtema | strip }}</h2>
     <div class="menu-content">
-      <iframe width='580' height='315' src='{{ tutorial.video }}' frameborder='0' allowfullscreen></iframe>
+      <iframe class="video-tutoras" width='580' height='315' src='{{ tutorial.video }}' frameborder='0' allowfullscreen></iframe>
       <div>
         <p>{{ tutorial.sinopse | strip }}</p>
         <a href="{{ tutorial.permalink }}"><button class="button-tutoras">Saiba mais</button></a>
@@ -64,4 +65,3 @@ permalink: "/tutoriais/"
 
 <script src="{{ url }}/assets/js/toc_tutoriais.js"></script>
 <script src="{{ url }}/assets/js/scroll.js"></script>
-

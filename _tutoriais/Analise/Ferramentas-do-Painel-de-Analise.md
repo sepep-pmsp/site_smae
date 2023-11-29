@@ -22,19 +22,19 @@ sinopse: O painel de Análise do SMAE pode ser definido como um dashboard que co
 
 <!--Video-->
 
-<iframe width='970' height='546' src='https://www.youtube.com/embed/GI4QadBz_Dk?si=7SKyX4NKv_dgeKyr' frameborder='0' allowfullscreen></iframe>
+<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/GI4QadBz_Dk?si=7SKyX4NKv_dgeKyr' frameborder='0' allowfullscreen></iframe>
 
 <!--Breadcrumbs-->
 
 
-<nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
- <a href="{{ site.url }}{{ site.baseurl }}">{{ site.data.language.breadcrumb_start }}</a>
- {% assign crumbs = page.url | split: '/' %}
-   {% for crumb in crumbs offset: 1 %}
+<nav class="breadcrumbs" id="breadcrumbs-tutoriais" role="menubar" aria-label="breadcrumbs">
+  <a href="{{ site.url }}/tutoriais/">Tutoriais</a>
+  {% assign crumbs = page.url | split: '/' %}
+  {% for crumb in crumbs offset: 1 %}
     {% if forloop.last %}
-        <a class="current">{{ page.title }}</a>
+      <a class="current">{{ page.title }}</a>
     {% else %}
-        <a href="{{ site.url }}{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' }}</a>
+      <a href="{{ site.url }}{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' }}</a>
     {% endif %}
   {% endfor %}
 </nav>
