@@ -5,7 +5,7 @@ categories:
 permalink: "/adm-gerenciar-usuarios/"
 tema: ADMINISTRAÇÃO
 subtema: Gerenciar usuários
-video: https://www.youtube.com/embed/ASvpOBzZvhk?si=uoFRiaVwzBQt4yIC
+video: https://www.youtube.com/embed/ASvpOBzZvhk?si=tLwyR55LHIQBIWcI
 sinopse: Neste tutorial aprenderemos como criar, editar e inativar um usuário dentro do SMAE.
 ---
 <!--Title-->
@@ -20,7 +20,7 @@ sinopse: Neste tutorial aprenderemos como criar, editar e inativar um usuário d
 
 <!--Video-->
 
-<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/ASvpOBzZvhk?si=uoFRiaVwzBQt4yIC' frameborder='0' allowfullscreen></iframe>
+<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/ASvpOBzZvhk?si=tLwyR55LHIQBIWcI' frameborder='0' allowfullscreen></iframe>
 
 <!--Breadcrumbs-->
 

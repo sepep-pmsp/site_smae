@@ -5,8 +5,8 @@ categories:
 permalink: "/env-de-arquivos/"
 tema: Envio de Arquivos
 subtema: Upload de Documentos
-video: https://www.youtube.com/embed/nCmlYbDaDjQ?si=3JbnconjMAKyecnW
-sinopse: O painel de Análise do SMAE pode ser definido como um dashboard que concentra todas as informações de Metas e Projetos cadastrados no sistema. Através deste painel podemos filtrar informações sobre projetos de forma simples e visualizar grandes quantidades de dados de maneira fácil e dinâmica no melhor estilo Power BI. 
+video: https://www.youtube.com/embed/lB4JqK8xXp0?si=0Ox5bAxbApHt1ae3
+sinopse: O SMAE nos permite fazer o upload de arquivos de orçamentos que sejam pertinentes aos nossos projetos. Apesar de aceitar diversos formatos de arquivo, recomenda-se o uso de arquivos com a extensão .xlsx (planilha do Microsoft Excel). O Módulo de Envio de Arquivos está subdividido em Metas e Projetos. Como veremos neste tutorial, o processo de envio de arquivos é o mesmo em ambos os casos. 
 
 ---
 
@@ -22,7 +22,7 @@ sinopse: O painel de Análise do SMAE pode ser definido como um dashboard que co
 
 <!--Video-->
 
-<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/nCmlYbDaDjQ?si=3JbnconjMAKyecnW' frameborder='0' allowfullscreen></iframe>
+<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/lB4JqK8xXp0?si=0Ox5bAxbApHt1ae3' frameborder='0' allowfullscreen></iframe>
 
 <!--Breadcrumbs-->
 

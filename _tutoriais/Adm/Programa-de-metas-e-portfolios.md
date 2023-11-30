@@ -2,27 +2,25 @@
 layout: video
 categories:
     - design
-permalink: "/analise-ferramentas-do-painel-de-analise/"
-tema: Análise
-subtema: Ferramentas do Painél de Análise
-video: https://www.youtube.com/embed/GI4QadBz_Dk?si=5uYNh2JPv4A-dZPC
-sinopse: O painel de Análise do SMAE pode ser definido como um dashboard que concentra todas as informações de Metas e Projetos cadastrados no sistema. Através deste painel podemos filtrar informações sobre projetos de forma simples e visualizar grandes quantidades de dados de maneira fácil e dinâmica no melhor estilo Power BI. 
+permalink: "/adm-programa-de-metas-e-portfolios/"
+tema: ADMINISTRAÇÃO
+subtema: Programa de Metas e Portfólios
+video: https://www.youtube.com/embed/m1cILUIP7Qc?si=qXIOeQY311nCZLlJ
+sinopse: Neste tutorial aprenderemos a escolher qual Programa de Metas será visualizado por padrão no Painel de Metas, assim como também aprenderemos como criar nossos próprios portfólios para organizar os projetos que estamos gerindo.
 ---
-
-
 <!--Title-->
 
-# Ferramentas do Painél de Análise
+# Programa de Metas e Portfólios
 
 <!--Teaser-->
 
-## O painel de Análise do SMAE pode ser definido como um dashboard que concentra todas as informações de Metas e Projetos cadastrados no sistema. Através deste painel podemos filtrar informações sobre projetos de forma simples e visualizar grandes quantidades de dados de maneira fácil e dinâmica no melhor estilo Power BI.
+## Neste tutorial aprenderemos a escolher qual Programa de Metas será visualizado por padrão no Painel de Metas, assim como também aprenderemos como criar nossos próprios portfólios para organizar os projetos que estamos gerindo.
 
 <br>
 
 <!--Video-->
 
-<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/GI4QadBz_Dk?si=5uYNh2JPv4A-dZPC' frameborder='0' allowfullscreen></iframe>
+<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/m1cILUIP7Qc?si=qXIOeQY311nCZLlJ' frameborder='0' allowfullscreen></iframe>
 
 <!--Breadcrumbs-->
 

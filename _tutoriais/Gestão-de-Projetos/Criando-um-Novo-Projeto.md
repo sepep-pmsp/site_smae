@@ -5,7 +5,7 @@ categories:
 permalink: "/gp-criando-um-novo-projeto/"
 tema: Gestão de Projetos
 subtema: Criando um Novo Projeto
-video: https://www.youtube.com/embed/ASvpOBzZvhk?si=uoFRiaVwzBQt4yIC
+video: https://www.youtube.com/embed/6StBlQtyttM?si=C3V1MnjzzGvCtOT9
 sinopse: O módulo de Gestão de Projetos foi construido pensando-se nas especificidades e complexidades da gestão de projetos dentro da Administração Pública. Neste tutorial criaremos um novo projeto dentro do SMAE nos atentando para o preenchimento correto de todos os campos de texto solicitados, mesmo os não obrigatórios.
 ---
 <!--Title-->
@@ -19,7 +19,7 @@ sinopse: O módulo de Gestão de Projetos foi construido pensando-se nas especif
 
 <!--Video-->
 
-<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/ASvpOBzZvhk?si=uoFRiaVwzBQt4yIC' frameborder='0' allowfullscreen></iframe>
+<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/6StBlQtyttM?si=C3V1MnjzzGvCtOT9' frameborder='0' allowfullscreen></iframe>
 
 <!--Breadcrumbs-->
 

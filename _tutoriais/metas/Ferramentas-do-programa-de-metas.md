@@ -2,27 +2,27 @@
 layout: video
 categories:
     - design
-permalink: "/analise-ferramentas-do-painel-de-analise/"
-tema: Análise
-subtema: Ferramentas do Painél de Análise
-video: https://www.youtube.com/embed/GI4QadBz_Dk?si=5uYNh2JPv4A-dZPC
-sinopse: O painel de Análise do SMAE pode ser definido como um dashboard que concentra todas as informações de Metas e Projetos cadastrados no sistema. Através deste painel podemos filtrar informações sobre projetos de forma simples e visualizar grandes quantidades de dados de maneira fácil e dinâmica no melhor estilo Power BI. 
+permalink: "/mt-paineis-de-metas/"
+tema: Metas
+subtema: Ferramentas do Programa de Metas
+video: https://www.youtube.com/embed/DU66jWZaFtk?si=f6Ciz9VkeNwSHflM
+sinopse: Se você é um entusiasta de metas ou está embarcando nessa jornada pela primeira vez, as Ferramentas do Programa de Metas no SMAE oferecem uma experiência transformadora, redefinindo a maneira como você planeja, monitora e atinge seus objetivos. Prepare-se para um mergulho inspirador no mundo da realização de metas no SMAE.
 ---
 
 
 <!--Title-->
 
-# Ferramentas do Painél de Análise
+# Ferramentas do Programa de Metas
 
 <!--Teaser-->
 
-## O painel de Análise do SMAE pode ser definido como um dashboard que concentra todas as informações de Metas e Projetos cadastrados no sistema. Através deste painel podemos filtrar informações sobre projetos de forma simples e visualizar grandes quantidades de dados de maneira fácil e dinâmica no melhor estilo Power BI.
+## Descubra o poder transformador das Ferramentas do Programa de Metas no universo dinâmico do SMAE. Esta experiência inovadora mergulha fundo nas capacidades e funcionalidades que impulsionam o sucesso de metas e objetivos, oferecendo aos usuários uma visão reveladora do potencial que reside nas ferramentas do programa.
 
 <br>
 
 <!--Video-->
 
-<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/GI4QadBz_Dk?si=5uYNh2JPv4A-dZPC' frameborder='0' allowfullscreen></iframe>
+<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/DU66jWZaFtk?si=f6Ciz9VkeNwSHflM' frameborder='0' allowfullscreen></iframe>
 
 <!--Breadcrumbs-->
 

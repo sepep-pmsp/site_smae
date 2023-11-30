@@ -5,7 +5,7 @@ categories:
 permalink: "/relatorios/"
 tema: Relatórios
 subtema: Gerando Relatórios do Programa de Metas e Portfolios 
-video: https://www.youtube.com/embed/nCmlYbDaDjQ?si=3JbnconjMAKyecnW
+video: https://www.youtube.com/embed/nCmlYbDaDjQ?si=y_1q0-YkECIE5cR2
 sinopse: O painel de Análise do SMAE pode ser definido como um dashboard que concentra todas as informações de Metas e Projetos cadastrados no sistema. Através deste painel podemos filtrar informações sobre projetos de forma simples e visualizar grandes quantidades de dados de maneira fácil e dinâmica no melhor estilo Power BI. 
 ---
 
@@ -21,7 +21,7 @@ sinopse: O painel de Análise do SMAE pode ser definido como um dashboard que co
 
 <!--Video-->
 
-<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/nCmlYbDaDjQ?si=3JbnconjMAKyecnW' frameborder='0' allowfullscreen></iframe>
+<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/nCmlYbDaDjQ?si=y_1q0-YkECIE5cR2' frameborder='0' allowfullscreen></iframe>
 
 <!--Breadcrumbs-->
 
