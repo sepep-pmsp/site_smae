@@ -29,7 +29,7 @@
     url: "/documentacao-tecnica/"
 
 - title: Novidades
-  url: "/blog/"
+  url: "/novidades/"
   side: left
 
 - #title: "Busca"
@@ -37,7 +37,7 @@
   #side: right
 
 - title: "Entrar"
-  url: "/entrar/"
+  url: "https://smae.prefeitura.sp.fgv.br/login/"
   side: right
 
 - title: "Contato"

@@ -174,12 +174,27 @@ img.lazy {
 
 .button-tutoras{
   top: 25px; 
-  background-color: $monocromatico-7;
-  color: $dark-blue-1;
   box-shadow: 1px 1px 9px 3px $dark-blue-1;
 }
 
-.button-tutoras:hover{
+.button-tutoras{
+  text-align: center;
+  background-color: $dark-blue-1;
+  color: $hue-orange-2;
+  box-shadow: 1px 1px 9px 2px $monocromatico-2;
+  border-width: 2px 2px 2px 2px;
+  border-color: $monocromatico-7;
+}
+
+
+
+.button-novidades{
+  border: 0px solid; 
+  border-radius: 35px; 
+}
+
+
+.button-novidades{
   text-align: center;
   background-color: $dark-blue-1;
   color: $hue-orange-2;
@@ -200,3 +215,4 @@ img.lazy {
   text-decoration: none;
   color: $hue-orange-1;
 }
+
