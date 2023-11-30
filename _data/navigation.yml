@@ -36,6 +36,10 @@
   #url: "/search/"
   #side: right
 
+- title: "Entrar"
+  url: "https://smae.prefeitura.sp.fgv.br/login/"
+  side: right
+
 - title: "Contato"
   url: "/contact/"
   side: right
