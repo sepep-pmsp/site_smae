@@ -10,7 +10,7 @@ sinopse: Os Perfis de Acesso definem o que o usuário pode ou não fazer no sist
 ---
 <!--Title-->
 
-# Segundo tutorial de vídeo do SMAE
+# Perfis de acesso
 
 <!--Teaser-->
 
