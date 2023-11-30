@@ -16,33 +16,14 @@
         <div class="menu-item">
             <h2 class="menu-header" onclick="toggleMenu(this)">Você é o administrador do sistema e precisa cadastrar um novo usuário?</h2>
             <div class="menu-content">Uma das atribuições do perfil de administrador do sistema é possibilidade de criar, editar, bloquear e excluir usuários. Para criar um novo usuário, clique no módulo Usuários no menu do sistema > Na parte superior da página, clique em Novo Usuário > Preencha os campos E-mail, Nome Completo, Lotação e Órgão (os campos com * são obrigatórios) > defina os perfis de acesso do novo usuário (por padrão adotamos os perfis de Ponto Focal e Orçamento-Metas) > na parte inferior da página clique em Criar Cadastro para salvar. Clique aqui para assistir um tutorial sobre a criação de novos usuários no SMAE.  </div>
+            <!-- Adicione mais itens de menu conforme necessário -->
         </div>
         <div class="menu-item">
             <h2 class="menu-header" onclick="toggleMenu(this)">E se eu esquecer a minha senha?</h2>
             <div class="menu-content">É muito comum que se esqueça das senhas, por isso o SMAE tem uma opção de "Esqueci minha senha", onde enviará uma senha temporária para o e-mail cadastrado. Clique no "Esqueci minha senha"; informe o e-mail cadastrado e utilize a senha enviada por e-mal. Depois registre sua nova senha para garantir seu acesso!</div>
         </div>
-        <!-- Adicione mais itens de menu conforme necessário -->
+        
     </div>
-
-    <script>
-        function toggleMenu(header) {
-            var content = header.nextElementSibling;
-            if (content.style.display === "block") {
-                content.style.display = "none";
-            } else {
-                content.style.display = "block";
-                closeOtherMenus(header);
-            }
-        }
-
-        function closeOtherMenus(currentHeader) {
-            var headers = document.querySelectorAll(".menu-header");
-            headers.forEach(function (header) {
-                if (header !== currentHeader) {
-                    header.nextElementSibling.style.display = "none";
-                }
-            });
-        }
-    </script>
+<script src="{{ url }}/assets/js/accordion.js"></script>
 </body>
 </html>
