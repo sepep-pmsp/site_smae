@@ -22,7 +22,7 @@ sinopse: Se você é um entusiasta de metas ou está embarcando nessa jornada pe
 
 <!--Video-->
 
-<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/DU66jWZaFtk?si=f6Ciz9VkeNwSHflM' frameborder='0' allowfullscreen></iframe>
+<div class="flex-video"><iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/DU66jWZaFtk?si=f6Ciz9VkeNwSHflM' frameborder='0' allowfullscreen></iframe></div>
 
 <!--Breadcrumbs-->
 

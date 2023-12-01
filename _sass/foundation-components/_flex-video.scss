@@ -28,6 +28,7 @@ $flex-video-widescreen-padding-bottom: 56.34% !default;
   height: 0;
   margin-bottom: $flex-video-margin-bottom;
   overflow: hidden;
+  
 
   &.widescreen { padding-bottom: $flex-video-widescreen-padding-bottom; }
   &.vimeo { padding-top: 0; }

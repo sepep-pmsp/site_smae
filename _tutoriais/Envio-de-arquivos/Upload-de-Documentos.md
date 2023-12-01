@@ -22,7 +22,7 @@ sinopse: O SMAE nos permite fazer o upload de arquivos de orçamentos que sejam 
 
 <!--Video-->
 
-<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/lB4JqK8xXp0?si=0Ox5bAxbApHt1ae3' frameborder='0' allowfullscreen></iframe>
+<div class="flex-video"><iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/lB4JqK8xXp0?si=0Ox5bAxbApHt1ae3' frameborder='0' allowfullscreen></iframe></div>
 
 <!--Breadcrumbs-->
 

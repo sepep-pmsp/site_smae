@@ -45,7 +45,7 @@ permalink: "/tutoriais/"
   <div class="menu-item">
     <h2 id="{{ tutorial.subtema | slugify }}" class="menu-header" onclick="toggleMenu(this)">{{ tutorial.subtema | strip }}</h2>
     <div class="menu-content">
-      <iframe class="video-tutoras" width='580' height='315' src='{{ tutorial.video }}' frameborder='0' allowfullscreen></iframe>
+      <div class="flex-video"><iframe class="video-tutoras" width='580' height='315' src='{{ tutorial.video }}' frameborder='0' allowfullscreen></iframe></div>
       <div>
         <p>{{ tutorial.sinopse | strip }}</p>
         <a href="{{ tutorial.permalink }}"><button class="button-tutoras">Saiba mais</button></a>
