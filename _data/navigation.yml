@@ -28,6 +28,7 @@
 
 - title: "Desenvolvedor"
   side: right
+  url: "/developer/"
   dropdown:
   - title: "Mapa de Desenvolvimento"
     url: "/roadmap/"
