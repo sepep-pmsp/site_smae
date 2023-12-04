@@ -21,20 +21,20 @@
   dropdown:
   - title: " Manuais de usuário "
     url: "/manuais-de-usuario/"
-  - title: " Historico de Mudanças "
-    url: "/changelog/"
-  - title: " Mapa de Desenvolvimento "
-    url: "/roadmap/"
-  - title: "Documentação Técnica"
-    url: "/documentacao-tecnica/"
 
 - title: Novidades
   url: "/novidades/"
   side: left
 
-- #title: "Busca"
-  #url: "/search/"
-  #side: right
+- title: "Desenvolvedor"
+  side: right
+  dropdown:
+  - title: "Mapa de Desenvolvimento"
+    url: "/roadmap/"
+  - title: "Documentação Técnica"
+    url: "/documentacao-tecnica/"
+  - title: " Historico de Mudanças "
+    url: "/changelog/"
 
 - title: "Entrar"
   url: "https://smae.prefeitura.sp.fgv.br/login/"
