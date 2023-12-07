@@ -21,7 +21,7 @@ Se você é apaixonado por desbravar o código-fonte, explorar a arquitetura de 
 3. **Histórico de Mudanças (Changelog):**
    - Mantenha-se atualizado sobre cada passo do desenvolvimento com nosso Histórico de Mudanças. Cada versão é registrada aqui, destacando adições, correções e a evolução constante do SMAE.
 
- ### **Por que se envolver:**
+### **Por que se envolver:**
 
 - **Colabore na Construção do Futuro:** Contribua com suas ideias, sugestões e habilidades para moldar o SMAE em uma ferramenta ainda mais poderosa e eficiente.
 
