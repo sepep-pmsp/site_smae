@@ -10,15 +10,15 @@ permalink           : "/manuais-de-usuario/"
 <div class="small-12 columns b60">
     <h2> Tutorial do Usuário do SMAE </h2>
    <br>
-      <a href="{{ site.url }}{{ site.baseurl }}/primeiro-tutorial/" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><button class="button-novidades">Acesse o<strong> PDF</strong> Aqui </button></a>
+      <a href="{{ site.url }}{{ site.baseurl }}/manuais-de-usuario/manual-do-usuario/" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><button class="button-novidades">Acesse o<strong> PDF</strong> Aqui </button></a>
 </div> 
 <div class="small-12 columns b60">
       <h2> Manual dos Administradores do SMAE </h2>
    <br>
-      <a href="{{ site.url }}{{ site.baseurl }}/segundo-tutorial/" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><button class="button-novidades">Acesse o<strong> PDF</strong> Aqui </button></a>
+      <a href="{{ site.url }}{{ site.baseurl }}/manuais-de-usuario/manual-dos-administradores/" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><button class="button-novidades">Acesse o<strong> PDF</strong> Aqui </button></a>
 </div>
 <div class="small-12 columns b60">
     <h2> Tutorial dos Coordenadores do SMAE </h2>
    <br>
-      <a href="{{ site.url }}{{ site.baseurl }}/terceiro-tutorial/" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><button class="button-novidades">Acesse o<strong> PDF</strong> Aqui </button></a>
+      <a href="{{ site.url }}{{ site.baseurl }}/manuais-de-usuario/manual-dos-coordenadores/" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><button class="button-novidades">Acesse o<strong> PDF</strong> Aqui </button></a>
 </div>

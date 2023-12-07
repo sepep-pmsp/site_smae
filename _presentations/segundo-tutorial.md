@@ -5,7 +5,7 @@ header:
 title:  "Manual dos Administradores do SMAE"
 teaser: "Manual técnico do Sistema de Monitoramento e acompanhamento Estratégico."
 breadcrumb: true
-permalink: "/segundo-tutorial/"
+permalink: "/manuais-de-usuario/manual-dos-administradores/"
 categories:
     - design
 pdf_name: gp

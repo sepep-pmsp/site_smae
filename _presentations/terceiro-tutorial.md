@@ -5,7 +5,7 @@ header:
 title:  "Tutorial dos Coordenadores do SMAE"
 teaser: "Manual técnico do Sistema de Monitoramento e acompanhamento Estratégico."
 breadcrumb: true
-permalink: "/terceiro-tutorial/"
+permalink: "/manuais-de-usuario/manual-dos-coordenadores/"
 categories:
     - design
 pdf_name: pdm

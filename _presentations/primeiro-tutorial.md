@@ -5,7 +5,7 @@ header:
 title:  "Tutorial do Usuário do SMAE"
 teaser: "Manual técnico do Sistema de Monitoramento e acompanhamento Estratégico."
 breadcrumb: true
-permalink: "/primeiro-tutorial/"
+permalink: "/manuais-de-usuario/manual-do-usuario/"
 categories:
     - design
 pdf_name: focal
