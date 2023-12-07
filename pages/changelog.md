@@ -11,5 +11,5 @@ permalink: "/changelog/"
 
 # Versão 1.0 - Lançamento Inicial 🎉
 
-## Date:   20/07/2023
+## Data:   20/07/2023
 
