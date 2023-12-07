@@ -22,7 +22,7 @@ sinopse: O módulo de Gestão de Projetos foi construido pensando-se nas especif
 
 <!--Video-->
 
-<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/ASvpOBzZvhk?si=uoFRiaVwzBQt4yIC' frameborder='0' allowfullscreen></iframe>
+<div class="flex-video"><iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/ASvpOBzZvhk?si=uoFRiaVwzBQt4yIC' frameborder='0' allowfullscreen></iframe></div>
 
 <!--Breadcrumbs-->
 

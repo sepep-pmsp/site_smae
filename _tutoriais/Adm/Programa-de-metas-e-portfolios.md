@@ -20,7 +20,7 @@ sinopse: Neste tutorial aprenderemos a escolher qual Programa de Metas será vis
 
 <!--Video-->
 
-<iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/m1cILUIP7Qc?si=qXIOeQY311nCZLlJ' frameborder='0' allowfullscreen></iframe>
+<div class="flex-video"><iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/m1cILUIP7Qc?si=qXIOeQY311nCZLlJ' frameborder='0' allowfullscreen></iframe></div>
 
 <!--Breadcrumbs-->
 
