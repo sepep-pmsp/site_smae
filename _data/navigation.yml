@@ -15,12 +15,9 @@
   url: "/duvidas-e-faq/"
   side: left
 
-- title: "Documentação"
-  url: "/documentation/"
+- title: " Manuais"
+  url: "/manuais-de-usuario/"
   side: left
-  dropdown:
-  - title: " Manuais de usuário "
-    url: "/manuais-de-usuario/"
 
 - title: Novidades
   url: "/novidades/"
@@ -30,10 +27,10 @@
   side: right
   url: "/developer/"
   dropdown:
-  - title: "Mapa de Desenvolvimento"
-    url: "/roadmap/"
   - title: "Documentação Técnica"
     url: "/documentacao-tecnica/"
+  - title: "Mapa de Desenvolvimento"
+    url: "/roadmap/"
   - title: " Historico de Mudanças "
     url: "/changelog/"
 
