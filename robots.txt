@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://smae.prefeitura.sp.gov.br/sitemap.xml
