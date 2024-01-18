@@ -26,6 +26,7 @@ Check typography variables › _3_typography_settings.scss
 
 a,
 a:link {
+    color: #ecbb34;
     transition: all .4s;
 }
 
@@ -34,7 +35,7 @@ a:visited {
 }
 
 a:hover {
-    color: darken( $hue-orange-2, 10% );
+    color: darken( $hue-orange-4, 10% );
 }
 
 a:focus {
