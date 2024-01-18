@@ -5,7 +5,7 @@ categories:
 permalink: "/gp-Visualizando-e-Editando-um-Projeto/"
 tema: Gestão de Projetos
 subtema: Visualizando e Editando um Projeto
-video: https://www.youtube.com/embed/ASvpOBzZvhk?si=uoFRiaVwzBQt4yIC
+video: 
 sinopse: O módulo de Gestão de Projetos foi construido pensando-se nas especificidades e complexidades da gestão de projetos dentro da Administração Pública. Neste tutorial criaremos um novo projeto dentro do SMAE nos atentando para o preenchimento correto de todos os campos de texto solicitados, mesmo os não obrigatórios.
 ---
 <!--Title-->
@@ -22,7 +22,7 @@ sinopse: O módulo de Gestão de Projetos foi construido pensando-se nas especif
 
 <!--Video-->
 
-<div class="flex-video"><iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/ASvpOBzZvhk?si=uoFRiaVwzBQt4yIC' frameborder='0' allowfullscreen></iframe></div>
+<div class="flex-img"><img src="https://th.bing.com/th/id/OIG.LRx4FkipaY71gcTKtX5s?w=270&h=270&c=6&r=0&o=5&pid=ImgGn"></div>
 
 <!--Breadcrumbs-->
 
