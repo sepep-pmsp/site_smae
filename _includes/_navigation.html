@@ -4,14 +4,18 @@
 *  edit `_data/navigation.yml`.
 *
 {% endcomment %}
+
+
+
+
 <div id="navigation" class="sticky">
-  <nav class="top-bar" role="navigation" data-topbar data-options="scrolltop: false">
+  <nav id="topBar" class="top-bar" role="navigation" data-topbar data-options="scrolltop: false">
     <ul class="title-area">
       <li class="name">
       <h1 class="hide-for-large-up"><a href="{{ site.url }}{{ site.baseurl }}" class="icon-tree"> {{ site.title }}</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-      <li class="toggle-topbar toggle-topbar-click menu-icon"><a><span>Nav</span></a></li>
+      <li class="toggle-topbar toggle-topbar-click menu-icon" id="clica_ni_mim_matheus"><a id="botao" onclick="abrirMenuSanduiche()"><span>Nav</span></a></li>
     </ul>
     <section class="top-bar-section">
 {% comment %}
@@ -137,3 +141,27 @@
     </section>
   </nav>
 </div><!-- /#navigation -->
+
+
+
+<script>
+  
+
+
+function abrirMenuSanduiche () {
+
+  let botao = document.getElementById("botao")
+  let navigation = document.getElementById("navigation")
+  let topBar =  document.getElementById("topBar")
+
+  let listItens = document.querySelector(".divider")
+
+        navigation.classList.toggle("expanded")
+        navigation.classList.toggle("fixed")
+        topBar.classList.toggle("expanded")
+        topBar.classList.toggle("fixed")
+        listItens.classList.remove("divider")
+        listItens.classList.add("active")
+
+    }
+</script>
