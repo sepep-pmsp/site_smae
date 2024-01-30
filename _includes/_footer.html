@@ -50,11 +50,15 @@
                 </li>
             {% endfor %}
             </ul>
+            <ul class="inline-list social-icons">
+              {% for social_item in site.data.socialmedia %}
+                <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
+              {% endfor %}
+              </ul>
           </div><!-- /.large-3.columns -->
         </div><!-- /.row -->
       </div><!-- /#footer -->
-      
-      
+
 
       <div id="subfooter">
         <!--logo-->
@@ -75,20 +79,4 @@
             </div>
           </div>
         </div>
-        <!---->
-        
-        <nav class="row">
-          <a id="pmsp" href="https://www.prefeitura.sp.gov.br/cidade/secretarias/governo/planejamento/"><section id="subfooter-left" class="small-12 medium-6 columns credits">
-            {{ site.credits }}
-          </section></a>
-
-          <section id="subfooter-right" class="small-12 medium-6 columns">
-            <ul class="inline-list social-icons">
-            {% for social_item in site.data.socialmedia %}
-              <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
-            {% endfor %}
-            </ul>
-          </section>
-        </nav>
-      </div><!-- /#subfooter -->
     </footer>
