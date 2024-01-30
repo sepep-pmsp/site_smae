@@ -764,13 +764,13 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
               background: $topbar-link-bg-hover;
             }
 
-            color: $topbar-link-color-hover;
+            color: $hue-orange-1;
           }
 
           // Apply the active link color when it has that class
           &:active>a {
             background: $topbar-link-bg-active;
-            color: $topbar-link-color-active;
+            color: $hue-orange-1;
           }
         }
 
@@ -788,4 +788,8 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
       }
     }
   }
+}
+
+.nav-toggle{
+  color: $hue-orange-1;
 }
