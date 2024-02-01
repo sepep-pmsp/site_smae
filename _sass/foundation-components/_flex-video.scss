@@ -28,6 +28,7 @@ $flex-video-widescreen-padding-bottom: 56.34% !default;
   height: 0;
   margin-bottom: $flex-video-margin-bottom;
   overflow: hidden;
+  border-radius: 30px;
   
 
   &.widescreen { padding-bottom: $flex-video-widescreen-padding-bottom; }
