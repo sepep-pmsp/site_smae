@@ -37,9 +37,9 @@ Este projeto é distribuído sob a licença MIT. Para mais detalhes, consulte o 
 ## Criado Por
 
 - [Bruno Azuma Balzano](https://github.com/brunoazuma)
-- [Ana Carolina Machado](https://github.com/anacarolinamachado)
-- [Henrique Pougy](https://github.com/hpougy)
-- [Matheus Henrique Santos Menezes](https://github.com/matheushenriquers)
+- [Ana Carolina Machado](https://github.com/Ana-CAS-Machado)
+- [Henrique Pougy](https://github.com/h-pgy)
+- [Matheus Henrique Santos Menezes](https://github.com/mathhmz)
 
 ---
 Este site foi desenvolvido utilizando o framework **JEKYLL** e baseado no tema **FEELING RESPONSIVE**.
