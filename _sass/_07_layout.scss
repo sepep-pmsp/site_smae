@@ -36,8 +36,8 @@ body.video p,
 body.video a,
 body.video blockquote:before,
 body.video blockquote:after,
-body.video cite a, { color: #fff; }
-body.video cite a:visited, { color: #fff; }
+body.video cite a { color: #fff; }
+body.video cite a:visited { color: #fff; }
 body.video cite { color: #fff; }
 .video {background-image: linear-gradient(to right bottom, #152741, #613e6d, #b84f73, #f37a56, #f7c234);}
 
