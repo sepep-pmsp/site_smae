@@ -130,9 +130,11 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 @media #{$medium-only} {
+    div:has(> #logo img) {
+        text-align: center;
+    }
     #logo img {
         margin-top: 60px;
-        margin-left: 235px;
     }
     #masthead {
         height: 280px;
@@ -154,9 +156,11 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 @media #{$large-only} {
+    div:has(> #logo img) {
+        text-align: center;
+    }
     #logo img {
         margin-top: 80px;
-        margin-left: 240px;
     }
     #masthead {
         height: 310px;
@@ -178,9 +182,11 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 @media #{$xlarge-up} {
+    div:has(> #logo img) {
+        text-align: center;
+    }
     #logo img {
         margin-top: 110px;
-        margin-left: 201px;
     }
     #masthead {
         height: 380px;
