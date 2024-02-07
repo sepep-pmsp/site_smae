@@ -36,8 +36,8 @@ body.video p,
 body.video a,
 body.video blockquote:before,
 body.video blockquote:after,
-body.video cite a, { color: #fff; }
-body.video cite a:visited, { color: #fff; }
+body.video cite a { color: #fff; }
+body.video cite a:visited { color: #fff; }
 body.video cite { color: #fff; }
 .video {background-image: linear-gradient(to right bottom, #152741, #613e6d, #b84f73, #f37a56, #f7c234);}
 
@@ -104,7 +104,7 @@ body.video cite { color: #fff; }
 
 @media #{$small-only} {
     #logo img {
-        display: none;
+    margin-top: 55px;
     }
     #masthead {
         height: 200px;
@@ -130,6 +130,9 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 @media #{$medium-only} {
+    div:has(> #logo img) {
+        text-align: center;
+    }
     #logo img {
         margin-top: 60px;
     }
@@ -153,6 +156,9 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 @media #{$large-only} {
+    div:has(> #logo img) {
+        text-align: center;
+    }
     #logo img {
         margin-top: 80px;
     }
@@ -176,9 +182,11 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 @media #{$xlarge-up} {
+    div:has(> #logo img) {
+        text-align: center;
+    }
     #logo img {
         margin-top: 110px;
-        margin-left: 201px;
     }
     #masthead {
         height: 380px;
