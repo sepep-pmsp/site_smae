@@ -5,7 +5,7 @@ categories:
 permalink: "/mt-paineis-de-metas/"
 tema: Metas
 subtema: Painéis de Metas
-video: https://www.youtube.com/embed/apU1CSB5E44?si=y8Pnd7tQ5YQNovSi
+video: https://www.youtube.com/embed/49EHwJhmGZo?si=_D-nVDDtkYIqZ85E
 sinopse: Se você é um entusiasta de metas ou está embarcando nessa jornada pela primeira vez, as Ferramentas do Programa de Metas no SMAE oferecem uma experiência transformadora, redefinindo a maneira como você planeja, monitora e atinge seus objetivos. Prepare-se para um mergulho inspirador no mundo da realização de metas no SMAE.
 ---
 
@@ -24,7 +24,7 @@ sinopse: Se você é um entusiasta de metas ou está embarcando nessa jornada pe
 
 <!--Video-->
 
-<div class="flex-video"><iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/apU1CSB5E44?si=y8Pnd7tQ5YQNovSi' frameborder='0' allowfullscreen></iframe></div>
+<div class="flex-video"><iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/49EHwJhmGZo?si=_D-nVDDtkYIqZ85E' frameborder='0' allowfullscreen></iframe></div>
 
 <!--Breadcrumbs-->
 
