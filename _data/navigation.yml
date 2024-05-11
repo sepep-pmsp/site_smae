@@ -35,7 +35,7 @@
     url: "/changelog/"
 
 - title: "Entrar"
-  url: "https://smae.prefeitura.sp.fgv.br/login/"
+  url: "https://smae.prefeitura.sp.fgv.br/"
   side: right
 
 - title: "Contato"
