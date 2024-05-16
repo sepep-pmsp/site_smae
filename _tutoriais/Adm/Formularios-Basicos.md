@@ -4,19 +4,19 @@ categories:
     - design
 permalink: "/adm-formularios-basicos/"
 tema: ADMINISTRAÇÃO
-subtema: Formulários Básicos
-video: https://www.youtube.com/embed/kbPmvTD-pJs?si=fPhpn_3IbbIO6zmy
-sinopse: Através da opção Formulários Básicos, podemos inserir metadados no SMAE que serão úteis no gerenciamento de projetos. Esses metadados podem ser órgãos da adminstração pública e seus depertamentos, unidades de medida, tipos de documento, categorias e informações geográficas como regiões, subprefeituras e distritos.
+subtema: Cadastros Básicos
+video: https://www.youtube.com/embed/Z9fFFJty2y0?si=dRkrjG9RFoj-PDeM
+sinopse: Através da opção Cadastros Básicos, podemos inserir metadados no SMAE que serão úteis no gerenciamento de projetos. Esses metadados podem ser órgãos da adminstração pública e seus depertamentos, unidades de medida, tipos de documento, categorias e informações geográficas como regiões, subprefeituras e distritos.
 ---
 
 <!--Title-->
 
-# Formulários Básicos
+# Cadastros Básicos
 ## ( Órgãos, Unidade de medida, Tipos de documento, Categorias, Regiões, subprefeitura e distritos)
 
 <!--Teaser-->
 
-## Através da opção Formulários Básicos, podemos inserir metadados no SMAE que serão úteis no gerenciamento de projetos. Esses metadados podem ser órgãos da adminstração pública e seus depertamentos, unidades de medida, tipos de documento, categorias e informações geográficas como regiões, subprefeituras e distritos.
+## Através da opção Cadastros Básicos, podemos inserir metadados no SMAE que serão úteis no gerenciamento de projetos. Esses metadados podem ser órgãos da adminstração pública e seus depertamentos, unidades de medida, tipos de documento, categorias e informações geográficas como regiões, subprefeituras e distritos.
 
 <br>
 
