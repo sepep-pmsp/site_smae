@@ -22,7 +22,7 @@ sinopse: Através da opção Formulários Básicos, podemos inserir metadados no
 
 <!--Video-->
 
-<div class="flex-video"><iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/kbPmvTD-pJs?si=fPhpn_3IbbIO6zmy' frameborder='0' allowfullscreen></iframe></div>
+<div class="flex-video"><iframe class="video-tutoras" width='970' height='546' src='{{ page.video }}' frameborder='0' allowfullscreen></iframe></div>
 
 <!--Breadcrumbs-->
 
