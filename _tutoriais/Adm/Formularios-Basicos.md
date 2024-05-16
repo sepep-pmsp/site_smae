@@ -5,7 +5,7 @@ categories:
 permalink: "/adm-formularios-basicos/"
 tema: ADMINISTRAÇÃO
 subtema: Cadastros Básicos
-video: https://youtu.be/Z9fFFJty2y0
+video: https://youtu.be/Z9fFFJty2y
 sinopse: Através da opção Cadastros Básicos, podemos inserir metadados no SMAE que serão úteis no gerenciamento de projetos. Esses metadados podem ser órgãos da adminstração pública e seus depertamentos, unidades de medida, tipos de documento, categorias e informações geográficas como regiões, subprefeituras e distritos.
 ---
 
