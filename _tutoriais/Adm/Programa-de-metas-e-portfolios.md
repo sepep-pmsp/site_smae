@@ -5,7 +5,7 @@ categories:
 permalink: "/adm-programa-de-metas-e-portfolios/"
 tema: ADMINISTRAÇÃO
 subtema: Programa de Metas e Portfólios
-video: https://www.youtube.com/embed/m1cILUIP7Qc?si=qXIOeQY311nCZLlJ
+video: https://www.youtube.com/embed/FffyWPiiCrE?si=10zkguZxWy-LrZA1
 sinopse: Neste tutorial aprenderemos a escolher qual Programa de Metas será visualizado por padrão no Painel de Metas, assim como também aprenderemos como criar nossos próprios portfólios para organizar os projetos que estamos gerindo.
 ---
 <!--Title-->
@@ -20,7 +20,7 @@ sinopse: Neste tutorial aprenderemos a escolher qual Programa de Metas será vis
 
 <!--Video-->
 
-<div class="flex-video"><iframe class="video-tutoras" width='970' height='546' src='https://www.youtube.com/embed/m1cILUIP7Qc?si=qXIOeQY311nCZLlJ' frameborder='0' allowfullscreen></iframe></div>
+<div class="flex-video"><iframe class="video-tutoras" width='970' height='546' src='{{ page.video }}' frameborder='0' allowfullscreen></iframe></div>
 
 <!--Breadcrumbs-->
 
