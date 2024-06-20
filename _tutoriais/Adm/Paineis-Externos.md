@@ -2,27 +2,25 @@
 layout: video
 categories:
     - design
-permalink: "/adm-formularios-basicos/"
+permalink: "/paineis-externos/"
 tema: Administração
-subtema: Cadastros Básicos
-video: https://www.youtube.com/embed/Z9fFFJty2y0?si=dRkrjG9RFoj-PDeM
-sinopse: Através da opção Cadastros Básicos, podemos inserir metadados no SMAE que serão úteis no gerenciamento de projetos. Esses metadados podem ser órgãos da adminstração pública e seus depertamentos, unidades de medida, tipos de documento, categorias e informações geográficas como regiões, subprefeituras e distritos.
+subtema: Painéis Externos
+video: https://youtu.be/4ZV8hgxqrLU?si=nIpLVjz3Y8VT4wq6
+sinopse: Nos Painéis Externos estão centralizados dashboards úteis à gestão de projetos e acompanhamento do Plano de Metas.
 ---
-
 <!--Title-->
 
-# Cadastros Básicos
-## ( Órgãos, Unidade de medida, Tipos de documento, Categorias, Regiões, subprefeitura e distritos)
+# Painéis Externos
 
 <!--Teaser-->
 
-## Através da opção Cadastros Básicos, podemos inserir metadados no SMAE que serão úteis no gerenciamento de projetos. Esses metadados podem ser órgãos da adminstração pública e seus depertamentos, unidades de medida, tipos de documento, categorias e informações geográficas como regiões, subprefeituras e distritos.
+## Nos Painéis Externos estão centralizados dashboards úteis à gestão de projetos e acompanhamento do Plano de Metas.
 
 <br>
 
 <!--Video-->
 
-<div class="flex-video"><iframe class="video-tutoras" width='970' height='546' src='{{ page.video }}' frameborder='0' allowfullscreen></iframe></div>
+<div class="flex-video"><iframe class="video-tutoras" width='970' height='546' src='https://youtu.be/4ZV8hgxqrLU?si=nIpLVjz3Y8VT4wq6' frameborder='0' allowfullscreen></iframe></div>
 
 <!--Breadcrumbs-->
 

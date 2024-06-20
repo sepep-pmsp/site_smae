@@ -2,27 +2,25 @@
 layout: video
 categories:
     - design
-permalink: "/adm-formularios-basicos/"
+permalink: "/quadro-de-atividades/"
 tema: Administração
-subtema: Cadastros Básicos
-video: https://www.youtube.com/embed/Z9fFFJty2y0?si=dRkrjG9RFoj-PDeM
-sinopse: Através da opção Cadastros Básicos, podemos inserir metadados no SMAE que serão úteis no gerenciamento de projetos. Esses metadados podem ser órgãos da adminstração pública e seus depertamentos, unidades de medida, tipos de documento, categorias e informações geográficas como regiões, subprefeituras e distritos.
+subtema: Quadro de Atividades
+video: https://youtu.be/3E5TvGlPeBQ?si=WbjPs7XR_oXad6mV
+sinopse: Através do Quadro de Atividades podemos monitorar pendências dentro do sistema, tanto a nível geral, quanto pessoal...
 ---
-
 <!--Title-->
 
-# Cadastros Básicos
-## ( Órgãos, Unidade de medida, Tipos de documento, Categorias, Regiões, subprefeitura e distritos)
+# Quadro de Atividades
 
 <!--Teaser-->
 
-## Através da opção Cadastros Básicos, podemos inserir metadados no SMAE que serão úteis no gerenciamento de projetos. Esses metadados podem ser órgãos da adminstração pública e seus depertamentos, unidades de medida, tipos de documento, categorias e informações geográficas como regiões, subprefeituras e distritos.
+## Através do Quadro de Atividades podemos monitorar pendências dentro do sistema, tanto a nível geral, quanto pessoal. Uma ferramenta muito útil que evita atrasos no preenchimento e análise dos dados do monitoramento de metas dentro do SMAE.
 
 <br>
 
 <!--Video-->
 
-<div class="flex-video"><iframe class="video-tutoras" width='970' height='546' src='{{ page.video }}' frameborder='0' allowfullscreen></iframe></div>
+<div class="flex-video"><iframe class="video-tutoras" width='970' height='546' src='https://youtu.be/3E5TvGlPeBQ?si=WbjPs7XR_oXad6mV' frameborder='0' allowfullscreen></iframe></div>
 
 <!--Breadcrumbs-->
 
