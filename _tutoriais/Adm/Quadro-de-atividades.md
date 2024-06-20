@@ -3,7 +3,7 @@ layout: video
 categories:
     - design
 permalink: "/quadro-de-atividades/"
-tema: ADMINISTRAÇÃO
+tema: Administração
 subtema: Quadro de Atividades
 video: https://youtu.be/3E5TvGlPeBQ?si=WbjPs7XR_oXad6mV
 sinopse: Através do Quadro de Atividades podemos monitorar pendências dentro do sistema, tanto a nível geral, quanto pessoal...
