@@ -8,17 +8,37 @@ permalink           : "/manuais-de-usuario/"
 ---
 
 <div class="small-12 columns b60">
-    <h2> Tutorial do Usuário do SMAE </h2>
+    <h2> Manual Técnico Introdução e Gestão de Usuários </h2>
    <br>
-      <a href="{{ site.url }}{{ site.baseurl }}/manuais-de-usuario/manual-do-usuario/" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><button class="button-novidades">Acesse o<strong> PDF</strong> Aqui </button></a>
+      <a href="{{ site.url }}{{ site.baseurl }}/manuais-de-usuario/manual-gestao-usuarios/" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><button class="button-novidades">Acesse o<strong> PDF</strong> Aqui </button></a>
 </div> 
 <div class="small-12 columns b60">
-      <h2> Manual dos Administradores do SMAE </h2>
+      <h2> Manual Técnico Cadastros Básicos  </h2>
    <br>
-      <a href="{{ site.url }}{{ site.baseurl }}/manuais-de-usuario/manual-dos-administradores/" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><button class="button-novidades">Acesse o<strong> PDF</strong> Aqui </button></a>
+      <a href="{{ site.url }}{{ site.baseurl }}/manuais-de-usuario/manual-cadastros-basicos/" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><button class="button-novidades">Acesse o<strong> PDF</strong> Aqui </button></a>
 </div>
 <div class="small-12 columns b60">
-    <h2> Tutorial dos Coordenadores do SMAE </h2>
+    <h2> Manual Técnico Gestão de Projetos </h2>
    <br>
-      <a href="{{ site.url }}{{ site.baseurl }}/manuais-de-usuario/manual-dos-coordenadores/" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><button class="button-novidades">Acesse o<strong> PDF</strong> Aqui </button></a>
+      <a href="{{ site.url }}{{ site.baseurl }}/manuais-de-usuario/manual-gestao-projetos/" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><button class="button-novidades">Acesse o<strong> PDF</strong> Aqui </button></a>
+</div>
+<div class="small-12 columns b60">
+    <h2> Manual Técnico Monitoramento de Obras </h2>
+   <br>
+      <a href="{{ site.url }}{{ site.baseurl }}/manuais-de-usuario/manual-monitoramento-de-obras/" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><button class="button-novidades">Acesse o<strong> PDF</strong> Aqui </button></a>
+</div>
+<div class="small-12 columns b60">
+    <h2> Manual Técnico Programa de Metas </h2>
+   <br>
+      <a href="{{ site.url }}{{ site.baseurl }}/manuais-de-usuario/manual-programa-metas/" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><button class="button-novidades">Acesse o<strong> PDF</strong> Aqui </button></a>
+</div>
+<div class="small-12 columns b60">
+    <h2> Manual Técnico Transferências Voluntárias </h2>
+   <br>
+      <a href="{{ site.url }}{{ site.baseurl }}/manuais-de-usuario/manual-tranferencias-voluntarias/" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><button class="button-novidades">Acesse o<strong> PDF</strong> Aqui </button></a>
+</div>
+<div class="small-12 columns b60">
+    <h2> Manual Técnico Planos Setoriais </h2>
+   <br>
+      <a href="{{ site.url }}{{ site.baseurl }}/manuais-de-usuario/manual-Planos-Setoriais/" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><button class="button-novidades">Acesse o<strong> PDF</strong> Aqui </button></a>
 </div>
