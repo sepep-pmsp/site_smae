@@ -1,0 +1,50 @@
+import requests
+from bs4 import BeautifulSoup
+
+def decode_secret_message(url: str):
+    response = requests.get(url)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, 'html.parser')
+    table = soup.find('table')
+    if not table:
+        print("Error: Could not find a table in the provided document.")
+        return
+    rows = table.find_all('tr')
+    if not rows:
+        print("Error: The table is empty.")
+        return
+    headers = [td.get_text(strip=True) for td in rows[0].find_all(['th', 'td'])]
+    try:
+        x_idx = headers.index('x-coordinate')
+        char_idx = headers.index('Character')
+        y_idx = headers.index('y-coordinate')
+    except ValueError:
+        x_idx, char_idx, y_idx = 0, 1, 2
+    grid_data = {}
+    max_x = 0
+    max_y = 0
+    for row in rows[1:]:
+        cells = row.find_all('td')
+        if len(cells) > max(x_idx, char_idx, y_idx):
+            x_text = cells[x_idx].get_text(strip=True)
+            y_text = cells[y_idx].get_text(strip=True)
+            if not x_text.isdigit() or not y_text.isdigit():
+                continue
+            x = int(x_text)
+            y = int(y_text)
+            char_text = cells[char_idx].get_text(strip=True)
+            char = char_text[0] if char_text else ' '
+            grid_data[(x, y)] = char
+            if x > max_x:
+                max_x = x
+            if y > max_y:
+                max_y = y
+    for y in range(max_y, -1, -1):
+        row_chars = []
+        for x in range(max_x + 1):
+            row_chars.append(grid_data.get((x, y), ' '))
+        print(''.join(row_chars))
+
+if __name__ == "__main__":
+    test_url = "https://docs.google.com/document/d/e/2PACX-1vTMOmshQe8YvaRXi6gEPKKlsC6UpFJSMAk4mQjLm_u1gmHdVVTaeh7nBNFBRlui0sTZ-snGwZM4DBCT/pub"
+    decode_secret_message(test_url)

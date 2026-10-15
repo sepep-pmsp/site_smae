@@ -1,7 +1,6 @@
 version: "3.3"
 
 services:
-
   traefik:
     image: "traefik:v2.10"
     container_name: "traefik"
@@ -29,7 +28,7 @@ services:
       - "/var/run/docker.sock:/var/run/docker.sock:ro"
 
   frontend:
-    build: 
+    build:
       context: .
     image: site-smae:latest
     networks:
@@ -46,7 +45,9 @@ services:
       - "traefik.http.routers.frontend.tls.domains[0].main=smae.prefeitura.sp.gov.br"
       - "traefik.http.routers.frontend.tls.domains[1].main=www.smae.prefeitura.sp.gov.br"
       - "traefik.http.services.frontend.loadbalancer.server.port=80"
-      - "traefik.http.routers.frontend.middlewares=frontend-ratelimit"
+      # ALTERACAO HSTS: acrescenta protecao sem remover o rate limit existente.
+      - "traefik.http.routers.frontend.middlewares=frontend-hsts,frontend-ratelimit"
+      - "traefik.http.middlewares.frontend-hsts.headers.stsseconds=31536000"
       - "traefik.http.middlewares.frontend-ratelimit.ratelimit.average=1000"
       - "traefik.http.middlewares.frontend-ratelimit.ratelimit.period=10s"
       - "traefik.http.middlewares.frontend-ratelimit.ratelimit.burst=500"
